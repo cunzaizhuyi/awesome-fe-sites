@@ -28,6 +28,11 @@
 - [amitmerchant](https://www.amitmerchant.com/posts/javascript/)。
 - [CS自学指南](https://csdiy.wiki/)，来自北大的同学。
 
+# 技术规范
+
+- [html规范](https://html.spec.whatwg.org/)
+- 
+
 # 前端公众号
 
 # 开源项目站点
