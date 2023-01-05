@@ -18,7 +18,7 @@
 
 # 各类技术周报
 
-- [node-weekly](https://nodetweekly.com/), node技术周报
+- [node-weekly](https://nodeweekly.com/), node技术周报
 - [javascript-weekly](https://javascriptweekly.com/), js技术周报
 - [frontend-weekly](https://frontender-ua.medium.com/)
 
@@ -29,4 +29,5 @@
 
 # 公众号
 
+# 开源项目站点
 
