@@ -18,16 +18,17 @@
 
 # 各类技术周报
 
-- [node-weekly](https://nodeweekly.com/), node技术周报
-- [javascript-weekly](https://javascriptweekly.com/), js技术周报
+- [node-weekly](https://nodeweekly.com/)，node技术周报
+- [javascript-weekly](https://javascriptweekly.com/)，js技术周报
 - [frontend-weekly](https://frontender-ua.medium.com/)
 
 # 高质量个人博客
 
-- [stefanjudis](https://www.stefanjudis.com/), 其中有web weekly。作者自己搞的前端周报。
-- [amitmerchant](https://www.amitmerchant.com/posts/javascript/)
+- [stefanjudis](https://www.stefanjudis.com/)，其中有web weekly。作者自己搞的前端周报。
+- [amitmerchant](https://www.amitmerchant.com/posts/javascript/)。
+- [CS自学指南](https://csdiy.wiki/)，来自北大的同学。
 
-# 公众号
+# 前端公众号
 
 # 开源项目站点
 
