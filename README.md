@@ -25,7 +25,7 @@
 # 高质量个人博客
 
 - [stefanjudis](https://www.stefanjudis.com/), 其中有web weekly。作者自己搞的前端周报。
-- [amitmerchant](amitmerchant.com)
+- [amitmerchant](https://www.amitmerchant.com/posts/javascript/)
 
 # 公众号
 
