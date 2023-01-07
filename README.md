@@ -1,7 +1,7 @@
 # what
 
 收录前端各类技术站点。  
-包括但不限于前端技术站点、技术周报、**高质量**个人博客、前端公众号、技术规范、开源项目站点等。  
+包括但不限于前端技术站点、技术周刊、**高质量**个人博客、前端公众号、技术规范、开源项目站点等。  
 仅限中文、英文。
 
 欢迎PR~
@@ -21,10 +21,10 @@
 - [segmentfault](https://segmentfault.com/)
 - [v2ex](https://www.v2ex.com/)
 
-# 各类技术周报
+# 各类技术周刊
 
-- [node-weekly](https://nodeweekly.com/)，node技术周报
-- [javascript-weekly](https://javascriptweekly.com/)，js技术周报
+- [node-weekly](https://nodeweekly.com/)，node技术周刊
+- [javascript-weekly](https://javascriptweekly.com/)，js技术周刊
 - [frontend-weekly](https://frontender-ua.medium.com/)
 
 # 高质量个人博客
