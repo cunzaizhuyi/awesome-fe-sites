@@ -34,6 +34,7 @@
 - [amitmerchant](https://www.amitmerchant.com/posts/javascript/)。
 - [CS自学指南](https://csdiy.wiki/)，来自北大的同学。
 - [山月行](https://shanyue.tech/)，其中有前端工程化，开发者工具箱等内容
+- [鑫空间，鑫生活](https://www.zhangxinxu.com/wordpress/)，张鑫旭大佬的技术博客
 
 # 技术规范
 
