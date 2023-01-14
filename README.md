@@ -20,6 +20,7 @@
 - [掘金](https://juejin.cn/)
 - [segmentfault](https://segmentfault.com/)
 - [v2ex](https://www.v2ex.com/)
+- [hive.one](https://hive.one/)，列出Twitter上某个技术社区里的名人、大佬
 
 # 各类技术周刊
 
