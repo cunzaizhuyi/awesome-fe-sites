@@ -46,7 +46,7 @@
 
 # 工具网站(指可以生成有效文件或代码的网站)
 
-## CSS工具
+## 工具 - CSS
 - [Web安全色](https://www.bootcss.com/p/websafecolors/)
 - [SVG Backgrounds](https://www.svgbackgrounds.com/)
 - [SVG 波浪背景生成](https://svgwave.in/)
@@ -70,21 +70,21 @@
 - [缓动函数速查表](https://easings.net/zh-cn)，除了CSS代码，它还给出了函数的代码，供一些可以自定义缓动函数的动画函数
 - [防御性CSS提示](https://defensivecss.dev/tips)
 
-## JavaScript工具
+## 工具 - JavaScript
 - [JavaScript可视化执行](https://www.jsv9000.app/)，以可视化的方式展示js的事件循环
 - [JavaScript性能对比](https://jsbench.me/)，可以对比多段js代码的性能差异
 - [单行JavaScript实用代码](https://jsbench.me/)
 - [轮播图生成器](https://imageslidermaker.com/v2)
 - [语言AST展示](https://www.astexplorer.net/)，支持非常多语言
 
-## 图片工具
+## 工具 - 图片
 - [雪碧图/精灵图生成器](https://www.toptal.com/developers/css/sprite-generator)，把所有的图片上传，即可获得一张雪碧图，并且带CSS代码
 - [代码Demo图生成](https://www.ray.so/)，虚心向大佬请教的时候，用这个或许比截图更容易让大佬一眼看见问题，给大佬良好的体验
 
-## 正则工具
+## 工具 - 正则
 - [正则生成、图解](https://regex-vis.com/),除了常见的图解正则，还可以通过鼠标点点点，对正则进行逻辑的增删改，详见GitHub的README
 
-## 服务工具
+## 工具 - 服务
 - [Nginx配置生成](https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN)
 
 # 面试题
