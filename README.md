@@ -73,7 +73,7 @@
 ## 工具 - JavaScript
 - [JavaScript可视化执行](https://www.jsv9000.app/)，以可视化的方式展示js的事件循环
 - [JavaScript性能对比](https://jsbench.me/)，可以对比多段js代码的性能差异
-- [单行JavaScript实用代码](https://jsbench.me/)
+- [单行JavaScript实用代码](https://1loc.dev/)
 - [轮播图生成器](https://imageslidermaker.com/v2)
 - [语言AST展示](https://www.astexplorer.net/)，支持非常多语言
 
