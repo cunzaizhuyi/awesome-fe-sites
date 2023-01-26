@@ -13,7 +13,7 @@ export default component$(() => {
       { store.allSites.map((list, index) => {
         return <div class='site-block my-30px' key={index}>
           <CategoryTitle category={list}></CategoryTitle>
-          <div class='flex flex-wrap justify-between'>
+          <div class='flex flex-wrap justify-start'>
             {list.sites.map((site: any, secIndex) => {
               return <CardSite site={site} key={secIndex}></CardSite>
             })}
