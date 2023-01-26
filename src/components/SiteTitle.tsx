@@ -1,4 +1,5 @@
 import { component$ } from '@builder.io/qwik';
+import { GithubIcon } from "~/components/icons/github";
 
 export default component$(() => {
   return (
@@ -12,7 +13,7 @@ export default component$(() => {
         <div className='slogan'>前端酷站 尽收眼底</div>
       </div>
       <div class='absolute right-20px top--10px'>
-        <a href="https://github.com/cunzaizhuyi/awesome-fe-sites" target='_blank'>github</a>
+        <GithubIcon></GithubIcon>
       </div>
     </scetion>
   )
