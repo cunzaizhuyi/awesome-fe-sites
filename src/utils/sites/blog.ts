@@ -26,5 +26,10 @@ export const blog = {
       link: 'https://www.zhangxinxu.com/wordpress/',
       desc: '张鑫旭大佬的技术博客',
     },
+    {
+      name: 'robinwieruch',
+      link: 'https://www.robinwieruch.de/blog/',
+      desc: '来自柏林/德国的德国软件工程师和自由开发人员, 致力于学习和教授JavaScript'
+    }
   ],
 }
