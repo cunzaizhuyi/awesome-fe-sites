@@ -25,7 +25,7 @@ export const weekly = {
     {
       name: '科技爱好者周刊',
       link: 'https://github.com/ruanyf/weekly/',
-      desc: '阮一峰科技爱好者周刊',
+      desc: '阮一峰科技爱好者周刊，周五更新',
     },
     {
       name: '早早鸟日刊',
