@@ -2,5 +2,5 @@
 .card:hover{
     transition: all 0.2s;
     transform: translateY(-4px) scale(1.05);
-    box-shadow: 4px 4px 15px rgba(0,0,0,1), -4px -4px 15px rgba(0,0,0,0.1);
+    box-shadow: 4px 4px 15px rgba(0,0,0,1), -4px -4px 15px rgba(0,0,0,0.3);
 }
