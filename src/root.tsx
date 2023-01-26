@@ -34,7 +34,9 @@ export default component$(() => {
   return (
     <QwikCityProvider>
       <head>
+        <title>前端森林</title>
         <meta charSet="utf-8" />
+        <meta name="description" content="收录前端各类技术网站" />
         <link rel="manifest" href="/manifest.json" />
         <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime/full.global.js"></script>
         <RouterHead />
