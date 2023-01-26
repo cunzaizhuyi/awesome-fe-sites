@@ -1,5 +1,7 @@
 import { component$, $, useStore } from "@builder.io/qwik";
 import { GithubIcon } from "~/components/icons/github";
+import { MoonIcon } from "~/components/icons/moon";
+import { SunIcon } from "~/components/icons/sun";
 
 export default component$(() => {
   const store = useStore({
@@ -32,7 +34,9 @@ export default component$(() => {
       </div>
       <div class='flex absolute right-20px top--10px'>
         <GithubIcon color={store.color}></GithubIcon>
-        <span class="ml-10px dark:text-white cursor-pointer" onClick$={toggleTheme}>主题切换</span>
+        <div class="ml-10px dark:text-white cursor-pointer" onClick$={toggleTheme}>
+          { store.color === 'black' ? <MoonIcon></MoonIcon> : <SunIcon></SunIcon>}
+        </div>
       </div>
     </scetion>
   )
