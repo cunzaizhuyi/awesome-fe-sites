@@ -5,7 +5,7 @@ import List from './card-mode/List';
 
 export default component$(() => {
   return (
-    <div>
+    <div class='dark:bg-black p-20px'>
       <SiteTitle></SiteTitle>
       <List></List>
     </div>

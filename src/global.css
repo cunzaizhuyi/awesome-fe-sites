@@ -16,7 +16,9 @@
 body {
   background-color: white;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 20px 20px 40px 20px;
+  /*padding: 20px 20px 40px 20px;*/
+  margin: 0;
+  padding: 0;
 }
 
 main {

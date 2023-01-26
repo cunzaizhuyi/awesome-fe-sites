@@ -21,11 +21,11 @@ export default component$((props: IProps) => {
     <div onClick$={onClick}
          class='card cursor-pointer w-100% sm:w-23% text-center m-10px min-h-50px rounded-10px'
          style="border: 1px solid #ccc; box-shadow: 0px 0px 12px rgba(0, 0, 0, .12)">
-      <div class='color-#0000EE text-18px h-50px lh-50px'
+      <div class='dark:color-#93C5FD color-#0000EE text-18px h-50px lh-50px'
       style='border-bottom: 0.5px solid #ccc;'>
         <span>{props.site.name}</span>
       </div>
-      <div class='color-gray-500 text-14px p-15px'>
+      <div class='dark:color-white color-gray-500 text-14px p-15px'>
         <span>{props.site.desc}</span>
       </div>
     </div>

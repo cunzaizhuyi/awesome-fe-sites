@@ -15,7 +15,9 @@ export default defineConfig(() => {
           'centerLayout': 'flex justify-center items-center',
         },
         presets: [
-          presetUno(),
+          presetUno({
+            darkMode: 'class',
+          }),
           presetIcons({
             extraProperties: {
               'display': 'inline-block',
