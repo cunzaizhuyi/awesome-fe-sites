@@ -1,8 +1,7 @@
 export const GithubIcon = () => (
   <div>
-    <a href="https://github.com/cunzaizhuyi/awesome-fe-sites" target="_blank" title="GitHub"><span
-      className="md:hidden">GitHub</span>
-      <span className="hidden md:block">
+    <a href="https://github.com/cunzaizhuyi/awesome-fe-sites" target="_blank" title="GitHub">
+      <span className="block">
             <svg viewBox="0 0 16 16" width="22"
                  height="22" fill="black"
                  role="img" aria-label="GitHub Logo"><path
