@@ -179,6 +179,11 @@ export const serviceUtilSites = {
       name: 'Nginx配置生成',
       link: 'https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN',
       desc: '',
+    },
+    {
+      name: 'reduced.to',
+      link: 'https://reduced.to/',
+      desc: '一个短链服务，前端用qwik，后端用nest'
     }
   ],
 }
