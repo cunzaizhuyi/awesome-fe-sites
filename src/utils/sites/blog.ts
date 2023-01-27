@@ -1,3 +1,14 @@
+export const teamBlog = {
+  type: '技术团队博客',
+  sites: [
+    {
+      name: 'web.dev',
+      link: 'https://web.dev/blog/',
+      desc: 'Chrome DevRel 团队的博客'
+    },
+  ]
+};
+
 export const blog = {
   type: '高质量个人博客',
   sites: [

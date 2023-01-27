@@ -17,11 +17,6 @@ export const techSites = {
       desc: '',
     },
     {
-      name: 'web.dev',
-      link: 'https://web.dev/blog/',
-      desc: 'Chrome DevRel 团队的博客'
-    },
-    {
       name: 'hive.one',
       link: 'https://hive.one/',
       desc: '列出Twitter上某个技术社区里的名人、大佬',
