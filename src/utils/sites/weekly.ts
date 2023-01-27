@@ -4,12 +4,12 @@ export const weekly = {
   sites: [
     {
       name: 'node-weekly',
-      link: 'https://nodeweekly.com/',
+      link: 'https://nodeweekly.com/issues',
       desc: 'node技术周刊，约每周四更新',
     },
     {
       name: 'javascript-weekly',
-      link: 'https://javascriptweekly.com/',
+      link: 'https://javascriptweekly.com/issues',
       desc: 'js技术周刊，约每周五更新',
     },
     {
