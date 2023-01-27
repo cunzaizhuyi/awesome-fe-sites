@@ -20,7 +20,7 @@ export const weekly = {
     {
       name: '奇舞周刊',
       link: 'https://weekly.75.team/',
-      desc: '360前端团队——奇舞团的周刊',
+      desc: '360前端团队——奇舞团的周刊，周五更新',
     },
     {
       name: '科技爱好者周刊',
