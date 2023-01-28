@@ -6,6 +6,11 @@ export const teamBlog = {
       link: 'https://web.dev/blog/',
       desc: 'Chrome DevRel 团队的博客'
     },
+    {
+      name: 'builder.io',
+      link: 'https://www.builder.io/blog',
+      desc: 'builder.io公司的技术博客，CTO是angular和qwik作者'
+    }
   ]
 };
 
