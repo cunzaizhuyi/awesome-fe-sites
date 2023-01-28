@@ -5,7 +5,7 @@ import List from "./List";
 
 export default component$(() => {
   return (
-    <div class='dark:bg-black p-20px'>
+    <div class='dark:bg-#28282a p-20px'>
       <SiteTitle></SiteTitle>
       <List></List>
     </div>

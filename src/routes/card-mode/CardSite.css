@@ -1,6 +1,16 @@
+.card:hover {
+    /* transform: translateY(-4px) scale(1.01); */
+    box-shadow: 7px 7px 14px #dadada, -7px -7px 14px #ffffff;
+}
 
-.card:hover{
-    transition: all 0.2s;
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 4px 4px 15px rgba(0,0,0,1), -4px -4px 15px rgba(0,0,0,0.3);
+.card:active {
+    box-shadow: 2px 2px 4px #999, -2px -2px 4px #ffffff;
+}
+
+html[class="dark"] .card:hover {
+    box-shadow: 8px 8px 16px #111, -8px -8px 16px #333;
+}
+
+html[class="dark"] .card:active {
+    box-shadow: 4px 4px 8px #000, -4px -4px 8px #303030;
 }
