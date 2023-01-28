@@ -1,6 +1,45 @@
+.card:hover {
+    /* transform: translateY(-4px) scale(1.01); */
+    box-shadow: 7px 7px 14px #dadada, -7px -7px 14px #ffffff;
+}
 
-.card:hover{
-    transition: all 0.2s;
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 4px 4px 15px rgba(0,0,0,1), -4px -4px 15px rgba(0,0,0,0.3);
+.card:active {
+    box-shadow: 2px 2px 4px #999, -2px -2px 4px #ffffff;
+}
+
+html[class="dark"] .card:hover {
+    box-shadow: 8px 8px 16px #111, -8px -8px 16px #333;
+}
+
+html[class="dark"] .card:active {
+    box-shadow: 4px 4px 8px #000, -4px -4px 8px #303030;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*去除未被访问的a标签的下划线*/
+a:link {
+    text-decoration: none;
+}
+
+/*去除已经被访问过的a标签的下划线*/
+a:visited {
+    text-decoration: none;
+}
+
+/*去除鼠标悬停时的a标签的下划线*/
+a:hover {
+    text-decoration: none;
+}
+
+/*去除正在点击的a标签的下划线（鼠标按下，尚未松开）*/
+a:active {
+    text-decoration: none;
+}
+
+/*去除获得焦点的a标签的下划线（被鼠标点击过）*/
+a:focus {
+    text-decoration: none;
 }

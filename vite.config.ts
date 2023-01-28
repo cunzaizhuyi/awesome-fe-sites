@@ -3,8 +3,10 @@ import { qwikVite } from '@builder.io/qwik/optimizer';
 import { qwikCity } from '@builder.io/qwik-city/vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import UnoCSS from 'unocss/vite';
-import presetIcons from '@unocss/preset-icons';
-import presetUno from '@unocss/preset-uno';
+import {
+  presetIcons,
+  presetWind,
+} from 'unocss'
 
 
 export default defineConfig(() => {
@@ -15,7 +17,8 @@ export default defineConfig(() => {
           'centerLayout': 'flex justify-center items-center',
         },
         presets: [
-          presetUno({
+          // presetWind和presetUno的区别是，用presetWind的预设可以获得VS Code中windicss插件的提示，其他的都一样
+          presetWind({
             darkMode: 'class',
           }),
           presetIcons({
