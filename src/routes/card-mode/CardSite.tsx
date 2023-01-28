@@ -1,5 +1,4 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
-import { $ } from '@builder.io/qwik';
 import CardSiteStyle from './CardSite.css?inline';
 
 interface IProps {
@@ -13,12 +12,10 @@ interface IProps {
 export default component$((props: IProps) => {
   useStyles$(CardSiteStyle);
 
-  const onClick = $(() => {
-    window.open(props.site.link, '__blank');
-  });
-
   return (
-    <div onClick$={onClick}
+    <a
+      href={props.site.link}
+      target="__blank"
       class='card cursor-pointer w-100% text-center min-h-50px rounded-6px transition-all-200 border-solid border border-#e9e9e9 dark:border-#444'
     >
       <div class='dark:color-#93C5FD color-#0000EE text-18px h-50px lh-50px dark:!border-#444'
@@ -28,6 +25,6 @@ export default component$((props: IProps) => {
       <div class='dark:color-white color-gray-500 text-14px p-15px'>
         <span>{props.site.desc}</span>
       </div>
-    </div>
+    </a>
   )
 });
