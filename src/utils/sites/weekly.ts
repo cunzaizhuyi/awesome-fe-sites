@@ -15,7 +15,7 @@ export const weekly = {
     {
       name: 'frontend-weekly',
       link: 'https://frontender-ua.medium.com/',
-      desc: '前端周刊',
+      desc: '前端周刊，周一更新',
     },
     {
       name: '奇舞周刊',

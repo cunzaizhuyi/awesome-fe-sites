@@ -14,12 +14,12 @@ export const techSites = {
     {
       name: 'v2ex',
       link: 'https://www.v2ex.com/',
-      desc: '',
+      desc: '是一个关于分享和探索的地方',
     },
     {
       name: 'hive.one',
       link: 'https://hive.one/',
-      desc: '列出Twitter上某个技术社区里的名人、大佬',
+      desc: '列出Twitter上某个技术社区里的名人、大佬，可以一键批量关注',
     },
   ],
 };
