@@ -186,7 +186,7 @@ export const serviceUtilSites = {
       desc: "一个短链服务，前端用qwik，后端用nest",
     },
     {
-      name: "reduced.to",
+      name: "long.ng",
       link: "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ng/",
       desc: "一个长链服务，前端用Astro，谨慎使用！",
     },
