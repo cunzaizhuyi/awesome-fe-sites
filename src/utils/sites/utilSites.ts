@@ -190,5 +190,10 @@ export const serviceUtilSites = {
       link: "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ng/",
       desc: "一个长链服务，前端用Astro，谨慎使用！",
     },
+    {
+      name: "caniuse",
+      link: "https://caniuse.com/",
+      desc: "浏览器兼容性",
+    },
   ],
 };
