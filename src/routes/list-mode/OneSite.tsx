@@ -12,7 +12,7 @@ interface IProps {
 export default component$((props: IProps) => {
 
   const onClick = $(() => {
-    window.open(props.site.link, '__blank');
+    window.open(props.site.link, '_blank');
   });
 
   return (
