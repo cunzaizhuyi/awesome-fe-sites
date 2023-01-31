@@ -37,6 +37,7 @@
     "netlify-cli": "^12.0.11",
     "node-fetch": "3.3.0",
     "prettier": "2.8.1",
+    "sass": "^1.57.1",
     "typescript": "4.9.4",
     "undici": "5.14.0",
     "unocss": "^0.48.4",
