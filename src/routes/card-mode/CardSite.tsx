@@ -15,7 +15,7 @@ export default component$((props: IProps) => {
   return (
     <a
       href={props.site.link}
-      target="__blank"
+      target="_blank"
       class='card cursor-pointer w-100% text-center min-h-50px rounded-6px transition-all-200 border-solid border border-#e9e9e9 dark:border-#444'
     >
       <div class='dark:color-#93C5FD color-#0000EE text-18px h-50px lh-50px dark:!border-#444'
