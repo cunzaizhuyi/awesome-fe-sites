@@ -23,14 +23,14 @@ export default component$(() => {
   });
 
   return (
-    <scetion className='centerLayout relative'>
+    <scetion class='centerLayout relative'>
       <div class='text-center dark:text-white'>
         <h1 class=''>
           <div class='i-mdi-forest text-green'></div>
           <span class='px-5px relative top-2px'>前端森林</span>
-          <div className='i-mdi-forest text-green'></div>
+          <div class='i-mdi-forest text-green'></div>
         </h1>
-        <div className='slogan'>前端酷站 尽收眼底</div>
+        <div class='slogan'>前端酷站 尽收眼底</div>
       </div>
       <div class='flex absolute right-20px top--10px'>
         <GithubIcon color={store.color}></GithubIcon>

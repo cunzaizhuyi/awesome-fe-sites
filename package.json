@@ -5,6 +5,10 @@
     "node": ">=15.0.0"
   },
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cunzaizhuyi/awesome-fe-sites"
+  },
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
