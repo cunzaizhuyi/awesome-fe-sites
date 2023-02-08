@@ -195,5 +195,10 @@ export const serviceUtilSites = {
       link: "https://caniuse.com/",
       desc: "浏览器兼容性",
     },
+    {
+      name: 'component-party',
+      link: 'https://component-party.lainbo.com/',
+      desc: '前端框架语法比较'
+    }
   ],
 };
