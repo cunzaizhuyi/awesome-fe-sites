@@ -57,4 +57,8 @@ export const hotSites: HotSite[] = [
 		name: "LeetCode",
 		link: "https://leetcode.cn/problemset/all/",
 	},
+	{
+		name: "Bun",
+		link: "https://bun.sh/docs",
+	},
 ];
