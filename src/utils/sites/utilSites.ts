@@ -158,6 +158,11 @@ export const picUtilsSites = {
       link: "https://www.ray.so/",
       desc: "虚心向大佬请教的时候，用这个或许比截图更容易让大佬一眼看见问题，给大佬良好的体验",
     },
+    {
+      name: "Carbon",
+      link: "https://carbon.now.sh/",
+      desc: "另一个代码块截图工具，和上面那个比较一下，自己喜欢哪个",
+    }
   ],
 };
 
