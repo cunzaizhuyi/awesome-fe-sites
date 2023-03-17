@@ -62,6 +62,11 @@ export const cssUtilSites = {
       desc: "",
     },
     {
+      name: "滚动条生成",
+      link: "https://scrollbar.lainbo.com/",
+      desc: "快速生成滚动条样式的css代码",
+    },
+    {
       name: "CSS渐变色",
       link: "https://webgradients.com/",
       desc: "",
