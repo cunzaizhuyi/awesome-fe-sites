@@ -8,8 +8,11 @@
       href={site.link}
       target="_blank"
       rel="noreferer"
-      class="btn cursor-pointer m-5px dark:bg-#eee dark:text-black"
+      class="btn cursor-pointer m-5px centerLayout"
     >
+      {#if site.logo}
+        <img src="{site.logo}" alt="" class="w-30px mr-5px">
+      {/if}
       {site.name}
     </a>
   {/each}
@@ -18,12 +21,12 @@
 <style lang="scss">
   .hot-sites{
     margin: 20px 0px;
-    background: #eeeeee;
+    //background: #eeeeee;
     .btn{
-      padding: 7px 15px;
-      background: #000028;
+      padding: 2px 15px;
+      background: white;
       border-radius: 20px;
-      color: white;
+      color: black;
     }
     .btn:hover{
       box-shadow: 4px 4px 8px gray;
