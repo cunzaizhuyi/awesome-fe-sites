@@ -5,9 +5,9 @@
 <a
     href={site.link}
     target="_blank"
-    class='card cursor-pointer w-100% text-center min-h-50px rounded-6px transition-all-200 border-solid border border-#e9e9e9'
+    class='cursor-pointer bg-#fff w-100% text-center min-h-50px rounded-6px transition-all-200 shadow-md hover:shadow-lg active:shadow-sm'
 >
-  <div class='color-#0000EE text-18px h-50px lh-50px'
+  <div class='color-#646cff text-18px h-50px lh-50px'
        style='border-bottom: thin solid #e9e9e9;'>
     <span>{site.name}</span>
   </div>
@@ -18,14 +18,6 @@
 
 
 <style lang="scss">
-  .card:hover {
-    /* transform: translateY(-4px) scale(1.01); */
-    box-shadow: 7px 7px 14px #dadada, -7px -7px 14px #ffffff;
-  }
-
-  .card:active {
-    box-shadow: 2px 2px 4px #999, -2px -2px 4px #ffffff;
-  }
 
   a {
     text-decoration: none;
