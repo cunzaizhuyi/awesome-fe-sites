@@ -1,0 +1,29 @@
+{
+	"name": "awesome-fe-sites-2",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@iconify-json/mdi": "^1.1.50",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"@types/cookie": "^0.5.1",
+		"@unocss/preset-icons": "^0.50.6",
+		"@unocss/preset-uno": "^0.50.6",
+		"sass": "^1.59.3",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.3",
+		"unocss": "^0.50.6",
+		"vite": "^4.0.0"
+	},
+	"type": "module"
+}
