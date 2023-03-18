@@ -12,6 +12,7 @@ import tailwind from '@/lib/images/logos/tailwind.png';
 import qwik from '@/lib/images/logos/qwik.png';
 import bun from '@/lib/images/logos/bun.png';
 import unocss from '@/lib/images/logos/unocss.png';
+import nuxt from '@/lib/images/logos/nuxt.png';
 
 export const hotSites: HotSite[] = [
 	{
@@ -87,4 +88,9 @@ export const hotSites: HotSite[] = [
 		link: "https://bun.sh/docs",
 		logo: bun
 	},
+	{
+		name: "Nuxt",
+		link: "https://nuxt.com/",
+		logo: nuxt,
+	}
 ];
