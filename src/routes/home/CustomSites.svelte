@@ -14,12 +14,14 @@
   let localList = [];
   onMount(() => {
     const item = localStorage.getItem("__local_sites__");
-    localList = item ?? JSON.parse(item);
+    if (item) {
+      localList = JSON.parse(item);
+    }
   })
 
 
   $: {
-    if (localStorage) {
+    if (localList.length) {
       localStorage.setItem("__local_sites__", JSON.stringify(localList));
     }
 
