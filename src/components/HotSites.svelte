@@ -8,7 +8,7 @@
       href={site.link}
       target="_blank"
       rel="noreferer"
-      class="btn cursor-pointer m-5px centerLayout"
+      class="btn cursor-pointer m-5px centerLayout transition-all-200 hover:shadow-lg"
     >
       {#if site.logo}
         <img src="{site.logo}" alt="" class="w-30px mr-5px">
@@ -27,9 +27,6 @@
       background: white;
       border-radius: 20px;
       color: black;
-    }
-    .btn:hover{
-      box-shadow: 4px 4px 8px gray;
     }
   }
 </style>

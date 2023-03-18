@@ -5,9 +5,9 @@
 
 </script>
 
-<section class="all-sites">
+<section class="all-sites space-y-36px mt-24px">
   {#each allSites as list}
-    <div class="site-block my-30px">
+    <div class="site-block">
       <CategoryTitle category={list} />
       <div class="item-wrapper">
         {#each list.sites as site}

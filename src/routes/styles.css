@@ -1,7 +1,11 @@
 @import '@fontsource/fira-mono';
 
+/* The style file stored on Bilibili, loads the corresponding font based on Unicode. */
+@import url(https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css);
+
 :root {
-	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+	/* HarmonyOS fonts have excellent readability across different devices. */
+	--font-body: 'HarmonyOS Sans SC', 'HarmonyOS_Regular', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(202, 216, 228);
@@ -12,22 +16,35 @@
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+	--scrollbar-thumb-color: #c9cdd4;
+	--scrollbar-thumb-hover-color: #86909c;
 	font-family: var(--font-body);
 	color: var(--color-text);
+	/* Ensure that the appearance and disappearance of the scrollbar does not cause any page jitter. */
+	scrollbar-gutter: stable;
+}
+
+:root[class~='dark'] {
+	--scrollbar-thumb-color: #5f5f60;
+	--scrollbar-thumb-hover-color: #929293;
+}
+
+::selection {
+	background: #646cff;
+	color: #fff;
 }
 
 body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
-	background-color: var(--color-bg-1);
+	/* background-color: var(--color-bg-1); */
+	/* background-color: #f5f4f4; */
 	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-			50% 50% at 50% 50%,
+	background-image: radial-gradient(50% 50% at 50% 50%,
 			rgba(255, 255, 255, 0.75) 0%,
-			rgba(255, 255, 255, 0) 100%
-		),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+			rgba(255, 255, 255, 0) 100%),
+		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 10%, #f5f4f4 50%);
 }
 
 h1,
@@ -104,4 +121,28 @@ button:focus:not(:focus-visible) {
 	position: absolute;
 	width: 1px;
 	white-space: nowrap;
+}
+
+/* Scrollbar style. */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	border-width: 0px;
+	background: var(--scrollbar-thumb-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--scrollbar-thumb-hover-color);
+}
+
+::-webkit-scrollbar-track-piece {
+	background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+	background: transparent;
 }
