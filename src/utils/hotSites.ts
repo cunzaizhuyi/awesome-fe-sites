@@ -11,6 +11,7 @@ import esbuild from '@/lib/images/logos/esbuild.png';
 import tailwind from '@/lib/images/logos/tailwind.png';
 import qwik from '@/lib/images/logos/qwik.png';
 import bun from '@/lib/images/logos/bun.png';
+import unocss from '@/lib/images/logos/unocss.png';
 
 export const hotSites: HotSite[] = [
 	{
@@ -75,6 +76,7 @@ export const hotSites: HotSite[] = [
 	{
 		name: "unocss",
 		link: "https://github.com/unocss/unocss",
+		logo: unocss,
 	},
 	{
 		name: "LeetCode",
