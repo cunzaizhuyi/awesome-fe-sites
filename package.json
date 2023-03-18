@@ -13,6 +13,7 @@
 		"@iconify-json/mdi": "^1.1.50",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^2.0.6",
 		"@sveltejs/kit": "^1.5.0",
 		"@types/cookie": "^0.5.1",
 		"@unocss/preset-icons": "^0.50.6",
