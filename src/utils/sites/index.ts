@@ -9,10 +9,10 @@ export const allSites = [
   // 技术站点
   techSites,
   // 周刊
-  weekly,
-  // 高质量个人博客；技术团队/技术组织博客
-  blog,
   teamBlog,
+  // 高质量个人博客；技术团队/技术组织博客
+  weekly,
+  blog,
   // 技术规范
   spec,
   // 热门开源项目站点
