@@ -1,38 +1,17 @@
-# create-svelte
+# what
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+收录前端各类技术站点。
+包括但不限于前端技术站点、技术周刊、**高质量**个人博客、前端公众号、技术规范、开源项目站点等。
+仅限中文、英文，英文最好。
 
-## Creating a project
+欢迎PR~
 
-If you're seeing this, you've probably already done this step. Congrats!
+# why
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+可能你觉得你有Google/Github就够了，但此仓库的存在主要为了起到下面几个作用：
+1. 解放自己的浏览器书签页，清爽一下。
+2. 尤其对于国外的个人博客，经常会忘记他们叫什么，想搜索都不知道搜什么。
+3. 想技术提升的时候，有个统一的地方，找到这个仓库就可以找到大部分**新鲜的**技术资讯。
+4. 最主要的还是收录英文站点，理由同2。
+5. 比如你是一个前端博主，或者你要在团队内技术分享，当你灵感枯竭的时候来这些站点翻一翻。有很大帮助。
+6. 提供自定义网站功能，相当于书签管理，基于localstorage实现。
