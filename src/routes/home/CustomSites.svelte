@@ -58,7 +58,7 @@
 
   {#if localList.length}
     <section class="mt-15px">
-      <div class="mb-10px text-[30px]">
+      <div class="mb-10px text-26px">
         <div class="i-mdi-file-table-outline text-orange-400"></div>
         <span class="relative top-3px">私人收藏</span>
       </div>
