@@ -217,3 +217,15 @@ export const serviceUtilSites = {
     }
   ],
 };
+
+export const aiUtilSites = {
+  type: '工具-AI类',
+  sites: [
+    {
+      name: 'Cursor编辑器',
+      link: 'https://www.cursor.so/',
+      desc: '一个可以免openAI账号直接使用chatGPT-4的编辑器',
+    }
+  ]
+}
+
