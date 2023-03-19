@@ -22,7 +22,7 @@ export const hotSites: HotSite[] = [
 	},
 	{
 		name: "React",
-		link: "https://reactjs.org/docs/getting-started.html",
+		link: "https://react.dev/",
 		logo: react,
 	},
 	{
