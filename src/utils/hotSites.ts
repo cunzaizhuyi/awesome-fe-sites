@@ -1,18 +1,19 @@
 import type { HotSite } from "@/types";
-import vue from '@/lib/images/logos/vue.png';
-import react from '@/lib/images/logos/react.png';
-import svelte from '@/lib/images/logos/svelte.png';
-import astro from '@/lib/images/logos/astro.png';
-import solid from '@/lib/images/logos/solid.png';
-import vite from '@/lib/images/logos/vite.png';
-import webpack from '@/lib/images/logos/webpack.png';
-import rollup from '@/lib/images/logos/rollup.png';
-import esbuild from '@/lib/images/logos/esbuild.png';
-import tailwind from '@/lib/images/logos/tailwind.png';
-import qwik from '@/lib/images/logos/qwik.png';
-import bun from '@/lib/images/logos/bun.png';
-import unocss from '@/lib/images/logos/unocss.png';
-import nuxt from '@/lib/images/logos/nuxt.png';
+import vue from '@/lib/images/logos/Vue.svg';
+import react from '@/lib/images/logos/React.svg';
+import antdesign_react from '@/lib/images/logos/AntDesign.svg';
+import svelte from '@/lib/images/logos/Svelte.svg';
+import astro from '@/lib/images/logos/Astro.svg';
+import solid from '@/lib/images/logos/Solid.svg';
+import vite from '@/lib/images/logos/Vite.svg';
+import webpack from '@/lib/images/logos/Webpack.svg';
+import rollup from '@/lib/images/logos/Rollup.svg';
+import esbuild from '@/lib/images/logos/Esbuild.svg';
+import tailwind from '@/lib/images/logos/Tailwindcss.svg';
+import qwik from '@/lib/images/logos/Qwik.svg';
+import bun from '@/lib/images/logos/Bun.svg';
+import unocss from '@/lib/images/logos/Unocss.svg';
+import nuxt from '@/lib/images/logos/Nuxt.svg';
 
 export const hotSites: HotSite[] = [
 	{
@@ -28,6 +29,7 @@ export const hotSites: HotSite[] = [
 	{
 		name: "Ant Design",
 		link: "https://ant.design/components/button-cn",
+		logo : antdesign_react,
 	},
 	{
 		name: "Svelte",
