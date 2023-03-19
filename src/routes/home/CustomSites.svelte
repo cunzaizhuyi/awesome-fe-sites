@@ -49,13 +49,55 @@
 </script>
 
 <div>
-  <div
-      class="btn cursor-pointer m-5px"
-      on:click={() => (modalVisible = true)}
-  >
-    新增私人收藏站点 👏
-  </div>
+  {#if localList.length}
+    <section class="mt-15px">
+      <div class="mb-10px text-26px">
+        <div class="i-mdi-file-table-outline text-orange-400"></div>
+        <span class="relative top-3px">私人收藏</span>
+      </div>
+      <div class="item-wrapper inline-block">
+        {#each localList as site}
+          <SimpleButton>
+            <a href="{site.link}" target="_blank" class="bg-black text-white">
+              { site.name }
+            </a>
+          </SimpleButton>
+        {/each}
+      </div>
+      <div
+          class="btn cursor-pointer m-5px inline-block"
+          on:click={() => (modalVisible = true)}
+      >
+        新增私人收藏站点 👏
+      </div>
+    </section>
+  {/if}
 
+  <FormModal
+      visible={modalVisible}
+      title={'新增私人收藏站点'}
+      onCancel={handleCancel}
+      onOk={handleOk}
+  >
+    <div class="flex flex-col">
+      <input
+          type="text"
+          placeholder="请输入需要添加的站点名称"
+          class="m-2 p-2 border-none bg-[#f1f1f1] b-rd"
+          on:input={(ev) =>
+                            (newSite.name = (ev.target).value)
+                        }
+      />
+      <input
+          type="text"
+          placeholder="请输入需要添加的站点url"
+          class="m-2 p-2 border-none bg-[#f1f1f1] b-rd"
+          on:input={(ev) =>
+                            (newSite.link = (ev.target).value)
+                        }
+      />
+    </div>
+  </FormModal>
   {#if localList.length}
     <section class="mt-15px">
       <div class="mb-10px text-26px">
