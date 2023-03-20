@@ -8,5 +8,6 @@ node_modules
 !.env.example
 .vercel
 .output
+.netlify
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
