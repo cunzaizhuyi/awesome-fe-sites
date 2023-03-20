@@ -1,13 +1,13 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import Unocss from 'unocss/vite';
+import UnoCSS from 'unocss/vite';
 import {
 	presetIcons,
 	presetWind,
 } from 'unocss';
 
 export default defineConfig({
-	plugins: [Unocss({
+	plugins: [UnoCSS({
 		shortcuts: {
 			'centerLayout': 'flex justify-center items-center',
 		},

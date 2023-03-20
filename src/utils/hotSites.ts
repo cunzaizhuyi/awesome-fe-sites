@@ -6,13 +6,14 @@ import svelte from '@/lib/images/logos/Svelte.svg';
 import astro from '@/lib/images/logos/Astro.svg';
 import solid from '@/lib/images/logos/Solid.svg';
 import vite from '@/lib/images/logos/Vite.svg';
-import webpack from '@/lib/images/logos/Webpack.svg';
+import webpack from '@/lib/images/logos/webpack.svg';
 import rollup from '@/lib/images/logos/Rollup.svg';
-import esbuild from '@/lib/images/logos/Esbuild.svg';
-import tailwind from '@/lib/images/logos/Tailwindcss.svg';
+import leetcode from '@/lib/images/logos/LeetCode.svg';
+import esbuild from '@/lib/images/logos/esbuild.svg';
+import tailwind from '@/lib/images/logos/TailwindCSS.svg';
 import qwik from '@/lib/images/logos/Qwik.svg';
 import bun from '@/lib/images/logos/Bun.svg';
-import unocss from '@/lib/images/logos/Unocss.svg';
+import unocss from '@/lib/images/logos/UnoCSS.svg';
 import nuxt from '@/lib/images/logos/Nuxt.svg';
 
 export const hotSites: HotSite[] = [
@@ -62,12 +63,12 @@ export const hotSites: HotSite[] = [
 		logo: rollup
 	},
 	{
-		name: "Esbuild",
+		name: "esbuild",
 		link: "https://esbuild.github.io/",
 		logo: esbuild,
 	},
 	{
-		name: "Webpack",
+		name: "webpack",
 		link: "https://webpack.js.org/concepts/",
 		logo: webpack
 	},
@@ -77,13 +78,14 @@ export const hotSites: HotSite[] = [
 		logo: tailwind
 	},
 	{
-		name: "unocss",
+		name: "UnoCSS",
 		link: "https://github.com/unocss/unocss",
 		logo: unocss,
 	},
 	{
 		name: "LeetCode",
 		link: "https://leetcode.cn/problemset/all/",
+		logo: leetcode
 	},
 	{
 		name: "Bun",
