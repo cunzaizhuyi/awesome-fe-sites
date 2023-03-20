@@ -1,5 +1,5 @@
 export const cssUtilSites = {
-  type: "工具-css",
+  type: "工具 - CSS",
   sites: [
     {
       name: "Web安全色",
@@ -120,7 +120,7 @@ export const cssUtilSites = {
 };
 
 export const jsUtilSites = {
-  type: "工具-js",
+  type: "工具 - JavaScript",
   sites: [
     {
       name: "JavaScript可视化执行",
@@ -151,7 +151,7 @@ export const jsUtilSites = {
 };
 
 export const picUtilsSites = {
-  type: "工具-图片",
+  type: "工具 - 图片",
   sites: [
     {
       name: "雪碧图/精灵图生成器",
@@ -172,7 +172,7 @@ export const picUtilsSites = {
 };
 
 export const iconUtilsSites = {
-  type: "工具-图标",
+  type: "工具 - 图标",
   sites: [
     {
       name: "svg图标库",
@@ -188,7 +188,7 @@ export const iconUtilsSites = {
 };
 
 export const drawUtilsSites = {
-  type: "工具-绘图",
+  type: "工具 - 绘图",
   sites: [
     {
       name: "绘图工具",
@@ -200,7 +200,7 @@ export const drawUtilsSites = {
 
 
 export const regexpUtilsSites = {
-  type: "工具-正则",
+  type: "工具 - 正则",
   sites: [
     {
       name: "正则生成、图解",
@@ -211,7 +211,7 @@ export const regexpUtilsSites = {
 };
 
 export const serviceUtilSites = {
-  type: "工具-服务",
+  type: "工具 - 服务",
   sites: [
     {
       name: "Nginx配置生成",
@@ -247,7 +247,7 @@ export const serviceUtilSites = {
 };
 
 export const aiUtilSites = {
-  type: '工具-AI类',
+  type: '工具 - AI类',
   sites: [
     {
       name: 'Cursor编辑器',

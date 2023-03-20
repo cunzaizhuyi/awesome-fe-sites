@@ -6,6 +6,6 @@
     class="mb-16px"
     style={`font-size: ${category?.level ? "22px" : "26px"}`}
 >
-  <div class="i-mdi-file-table-outline text-orange-400" />
-  <span class="relative top-3px text-#333">{category.type}</span>
+  <div class="i-fluent-emoji-flat-wind-chime" />
+  <span class="relative top-3px text-#333 font-NotoSerifSC font-500">{category.type}</span>
 </div>

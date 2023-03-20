@@ -31,6 +31,7 @@ export default defineConfig({
       fonts: {
         provider: 'bunny',
         Inter: [{ name: 'Inter' }],
+        NotoSerifSC: [{ name: 'Noto Serif SC' ,  weights: [500,600,700] }],
       },
     }),
     presetAttributify(), // This is Attributify Mode for UnoCSS. such as <div border="2 rounded blue-200" />
