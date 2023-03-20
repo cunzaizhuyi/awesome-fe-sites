@@ -171,6 +171,34 @@ export const picUtilsSites = {
   ],
 };
 
+export const iconUtilsSites = {
+  type: "工具-图标",
+  sites: [
+    {
+      name: "svg图标库",
+      link: "https://icones.js.org/",
+      desc: "里面有各种各样的svg图标",
+    },
+    {
+      name: "产品logoSvg",
+      link: "https://svgporn.com/",
+      desc: "各种产品的logo",
+    }
+  ],
+};
+
+export const drawUtilsSites = {
+  type: "工具-绘图",
+  sites: [
+    {
+      name: "绘图工具",
+      link: "https://www.tldraw.com/",
+      desc: "小巧的绘图应用程序",
+    }
+  ],
+};
+
+
 export const regexpUtilsSites = {
   type: "工具-正则",
   sites: [

@@ -3,7 +3,7 @@ import { weekly } from "./weekly";
 import { blog, teamBlog } from "./blog";
 import { spec } from "./spec";
 import { ossSites } from "./ossSites";
-import { cssUtilSites, jsUtilSites, picUtilsSites, regexpUtilsSites, serviceUtilSites, aiUtilSites} from './utilSites';
+import { cssUtilSites, jsUtilSites, picUtilsSites, iconUtilsSites, drawUtilsSites, regexpUtilsSites, serviceUtilSites, aiUtilSites} from './utilSites';
 
 export const allSites = [
   // 技术站点
@@ -21,6 +21,8 @@ export const allSites = [
   cssUtilSites,
   jsUtilSites,
   picUtilsSites,
+  iconUtilsSites,
+  drawUtilsSites,
   regexpUtilsSites,
   serviceUtilSites,
   aiUtilSites,
