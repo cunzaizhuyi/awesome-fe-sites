@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
 		"@iconify-json/mdi": "^1.1.50",
+		"@iconify/json": "^2.2.37",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-netlify": "^2.0.6",
@@ -18,6 +19,7 @@
 		"@types/cookie": "^0.5.1",
 		"@unocss/preset-icons": "^0.50.6",
 		"@unocss/preset-uno": "^0.50.6",
+		"@unocss/preset-web-fonts": "^0.50.6",
 		"sass": "^1.59.3",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",

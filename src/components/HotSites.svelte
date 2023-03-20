@@ -10,7 +10,9 @@
       rel="noreferer"
       class="btn cursor-pointer centerLayout transition-all-200 space-x-6px hover:shadow-lg active:shadow-sm"
     >
-      {#if site.logo}
+      {#if site.iconClass}
+        <div class="{`${site.iconClass} ${site.extraCss} text-20px`}"></div>
+      {:else if site.logo}
         <img src="{site.logo}" alt="" class="h-22px w-22px ">
       {/if}
       <span>{site.name}</span>

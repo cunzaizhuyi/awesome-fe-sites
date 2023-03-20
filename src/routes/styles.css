@@ -5,7 +5,7 @@
 
 :root {
 	/* HarmonyOS fonts have excellent readability across different devices. */
-	--font-body: 'HarmonyOS Sans SC', 'HarmonyOS_Regular', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+	--font-body: 'Inter', 'HarmonyOS Sans SC', 'HarmonyOS_Regular', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(202, 216, 228);

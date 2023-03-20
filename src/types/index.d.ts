@@ -14,4 +14,9 @@ type HotSite = {
 	 */
 	link: string;
 	logo?: any;
+
+	iconClass?: string;
+
+	// Some icons may have their center of gravity off-center, or their area too large or too small. we are using additional CSS to correct this.
+	extraCss?: string;
 };
