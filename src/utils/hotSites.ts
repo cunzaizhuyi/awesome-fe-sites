@@ -1,21 +1,4 @@
 import type { HotSite } from "@/types";
-// import vue from '@/lib/images/logos/Vue.svg';
-// import react from '@/lib/images/logos/React.svg';
-// import antdesign_react from '@/lib/images/logos/AntDesign.svg';
-// import svelte from '@/lib/images/logos/Svelte.svg';
-// import astro from '@/lib/images/logos/Astro.svg';
-// import solid from '@/lib/images/logos/Solid.svg';
-// import vite from '@/lib/images/logos/Vite.svg';
-// import webpack from '@/lib/images/logos/Webpack.svg';
-// import rollup from '@/lib/images/logos/Rollup.svg';
-// import leetcode from '@/lib/images/logos/LeetCode.svg';
-// import esbuild from '@/lib/images/logos/Esbuild.svg';
-// import tailwind from '@/lib/images/logos/TailwindCSS.svg';
-// import qwik from '@/lib/images/logos/Qwik.svg';
-// import bun from '@/lib/images/logos/Bun.svg';
-// import unocss from '@/lib/images/logos/UnoCSS.svg';
-// import nuxt from '@/lib/images/logos/Nuxt.svg';
-
 export const hotSites: HotSite[] = [
 	{
 		name: "Vue",
@@ -81,7 +64,7 @@ export const hotSites: HotSite[] = [
 	{
 		name: "UnoCSS",
 		link: "https://github.com/unocss/unocss",
-		iconClass: "i-logos-unocss",
+		iconClass: "i-cus-unocss",
 		extraCss: "!text-18px",
 	},
 	{
