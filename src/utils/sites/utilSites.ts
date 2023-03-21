@@ -260,7 +260,7 @@ export const aiUtilSites = {
       desc: '多种编辑器扩展，包括vscode和webstorm，集成AI功能，只需要注册个codeium账号，无须openAI账号',
     },
     {
-      name: 'https://github.com/xx025/carrot',
+      name: 'carrot',
       link: 'https://github.com/xx025/carrot',
       desc: '这儿为你准备了无数个免费好用的ChatGPT镜像站点',
     }
