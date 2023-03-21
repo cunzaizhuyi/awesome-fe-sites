@@ -5,13 +5,13 @@
 <a
     href={site.link}
     target="_blank"
-    class='cursor-pointer bg-#fff w-100% text-center min-h-50px rounded-6px transition-all-200 shadow-md hover:shadow-lg active:shadow-sm'
+    bg="#fff dark:#333"
+    class='cursor-pointer  w-100% text-center min-h-50px rounded-6px transition-all-200 shadow-md  hover:shadow-lg active:shadow-sm'
 >
-  <div class='color-#646cff text-18px h-50px lh-50px'
-       style='border-bottom: thin solid #e9e9e9;'>
+  <div border="b-solid b-1px #e9e9e9 dark:#555" class='color-#646cff text-18px h-50px lh-50px'>
     <span>{site.name}</span>
   </div>
-  <div class='color-gray-500 text-14px p-15px'>
+  <div text="gray-500 dark:#ddd" class=' text-14px p-15px'>
     <span>{site.desc}</span>
   </div>
 </a>

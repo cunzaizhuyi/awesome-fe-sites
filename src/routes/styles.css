@@ -10,7 +10,7 @@
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(202, 216, 228);
 	--color-bg-1: hsl(209, 36%, 86%);
-	--color-bg-2: hsl(224, 44%, 95%);
+	--color-bg-2: hsl(0, 5%, 96%);
 	--color-theme-1: #ff3e00;
 	--color-theme-2: #4075a6;
 	--color-text: rgba(0, 0, 0, 0.7);
@@ -18,15 +18,26 @@
 	--column-margin-top: 4rem;
 	--scrollbar-thumb-color: #c9cdd4;
 	--scrollbar-thumb-hover-color: #86909c;
+	--scrollbar-track-piece: transparent;
 	font-family: var(--font-body);
 	color: var(--color-text);
+	--page-bg: radial-gradient(50% 50% at 50% 50%,
+			rgba(255, 255, 255, 0.75) 0%,
+			rgba(255, 255, 255, 0) 100%),
+		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 10%, var(--color-bg-2) 50%);
 	/* Ensure that the appearance and disappearance of the scrollbar does not cause any page jitter. */
 	scrollbar-gutter: stable;
 }
 
 :root[class~='dark'] {
+	--color-text: #ffffffe6;
+	--color-bg-0: #1e1e1e;
+	--color-bg-1: #2d2d2d;
+	--color-bg-2: #434343;
 	--scrollbar-thumb-color: #5f5f60;
 	--scrollbar-thumb-hover-color: #929293;
+	--page-bg: linear-gradient(to top, #434343 0%, #000000 100%);
+	--scrollbar-track-piece: #1e1e1e;
 }
 
 ::selection {
@@ -41,10 +52,7 @@ body {
 	/* background-color: var(--color-bg-1); */
 	/* background-color: #f5f4f4; */
 	background-size: 100vw 100vh;
-	background-image: radial-gradient(50% 50% at 50% 50%,
-			rgba(255, 255, 255, 0.75) 0%,
-			rgba(255, 255, 255, 0) 100%),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 10%, #f5f4f4 50%);
+	background-image: var(--page-bg)
 }
 
 h1,
@@ -137,7 +145,7 @@ button:focus:not(:focus-visible) {
 }
 
 ::-webkit-scrollbar-track-piece {
-	background: transparent;
+	background: var(--scrollbar-track-piece);
 }
 
 ::-webkit-scrollbar-corner {

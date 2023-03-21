@@ -7,5 +7,5 @@
     style={`font-size: ${category?.level ? "22px" : "26px"}`}
 >
   <div class="i-fluent-emoji-flat-wind-chime" />
-  <span class="relative top-3px text-#333 font-NotoSerifSC font-500">{category.type}</span>
+  <span class="relative top-3px text-#333 font-NotoSerifSC font-500 dark:text-#fff">{category.type}</span>
 </div>

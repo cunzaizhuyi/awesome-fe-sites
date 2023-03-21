@@ -2,6 +2,20 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import 'uno.css';
+	import { onMount } from "svelte";
+  
+  let isDarkMode = false;
+
+  const setDarkMode = (mediaQuery) => {
+    isDarkMode = mediaQuery.matches;
+    document.documentElement.classList.toggle("dark", isDarkMode);
+  };
+
+  onMount(() => {
+    const darkMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    setDarkMode(darkMediaQuery);
+    darkMediaQuery.addEventListener("change", setDarkMode);
+  });
 </script>
 
 <div class="app">
