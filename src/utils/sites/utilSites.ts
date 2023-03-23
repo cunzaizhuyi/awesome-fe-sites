@@ -263,6 +263,11 @@ export const aiUtilSites = {
       name: 'carrot',
       link: 'https://github.com/xx025/carrot',
       desc: '这儿为你准备了无数个免费好用的ChatGPT镜像站点',
+    },
+    {
+      name: 'phind',
+      link: 'https://www.phind.com/',
+      desc: '面向开发者的AI搜索引擎',
     }
   ]
 }
