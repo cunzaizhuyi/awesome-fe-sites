@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { allSites } from "@/utils/sites";
   import Card from "./Card.svelte";
   import CategoryTitle from "./CategoryTitle.svelte";
 
+  export let pageSites = [];
 </script>
 
 <section class="all-sites space-y-36px mt-24px">
-  {#each allSites as list}
+  {#each pageSites as list}
     <div class="site-block">
       <CategoryTitle category={list} />
       <div class="item-wrapper">

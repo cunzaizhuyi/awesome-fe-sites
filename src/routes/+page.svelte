@@ -1,7 +1,8 @@
 <script lang="ts">
 	 import HotSites from '@/components/HotSites.svelte'
 	 import CustomSites from './home/CustomSites.svelte'
-	 import List from './home/List.svelte';
+	 import PageList from '@/components/pageList/List.svelte';
+	 import { allSites } from "@/utils/sites";
 </script>
 
 <svelte:head>
@@ -13,7 +14,7 @@
 	<div class=''>
 		<HotSites></HotSites>
 		<CustomSites></CustomSites>
-		<List></List>
+		<PageList pageSites="{allSites}"></PageList>
 	</div>
 </section>
 
