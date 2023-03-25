@@ -1,5 +1,5 @@
 export const aiUtilSites = {
-  type: '工具 - AI类',
+  type: 'AI - 工具',
   sites: [
     {
       name: 'Cursor编辑器',
