@@ -1,5 +1,6 @@
-import { aiUtilSites } from './aiUtilSites';
+import {aiEditorSites, aiUtilSites} from './aiUtilSites';
 
 export const aiSites = [
+  aiEditorSites,
   aiUtilSites,
 ];

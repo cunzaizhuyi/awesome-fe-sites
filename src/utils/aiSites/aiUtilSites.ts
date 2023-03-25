@@ -1,5 +1,5 @@
-export const aiUtilSites = {
-  type: 'AI - 工具',
+export const aiEditorSites = {
+  type: 'AI - 编辑器',
   sites: [
     {
       name: 'Cursor编辑器',
@@ -7,10 +7,21 @@ export const aiUtilSites = {
       desc: '一个可以免openAI账号直接使用chatGPT-4的编辑器',
     },
     {
+      name: 'CodeCursor',
+      link: 'https://github.com/Helixform/CodeCursor',
+      desc: 'vs code里的cursor扩展，不再需要下载cursor编辑器了',
+    },
+    {
       name: 'codeium',
       link: 'https://codeium.com/',
       desc: '多种编辑器扩展，包括vscode和webstorm，集成AI功能，只需要注册个codeium账号，无须openAI账号',
     },
+  ]
+}
+
+export const aiUtilSites = {
+  type: 'AI - 工具',
+  sites: [
     {
       name: 'carrot',
       link: 'https://github.com/xx025/carrot',
