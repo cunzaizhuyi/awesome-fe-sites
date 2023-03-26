@@ -51,6 +51,11 @@ export const blog = {
       name: 'robinwieruch',
       link: 'https://www.robinwieruch.de/blog/',
       desc: '来自柏林/德国的德国软件工程师和自由开发人员, 致力于学习和教授JavaScript'
+    },
+    {
+      name: 'lutaonan',
+      link: 'https://lutaonan.com/',
+      desc: '微软前端工程师'
     }
   ],
 }
