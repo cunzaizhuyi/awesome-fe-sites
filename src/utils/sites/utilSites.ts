@@ -242,6 +242,11 @@ export const serviceUtilSites = {
       name: 'Node Toolbox',
       link: 'https://nodejstoolbox.com/',
       desc: '查找Node生态下各分类最流行的代码库',
+    },
+    {
+      name: 'fly',
+      link: 'https://xn--4gq62f52gdss.com/#/subscribe',
+      desc: '飞跃重洋'
     }
   ],
 };
