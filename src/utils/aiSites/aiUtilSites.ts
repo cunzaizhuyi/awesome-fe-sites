@@ -27,6 +27,11 @@ export const aiDrawSites = {
       link: 'https://github.com/divamgupta/diffusionbee-stable-diffusion-ui',
       desc: 'stable-diffusion模型本地运行',
     },
+    {
+      name: 'lexica',
+      link: 'https://lexica.art/',
+      desc: 'The Stable Diffusion search engine',
+    }
   ]
 }
 
