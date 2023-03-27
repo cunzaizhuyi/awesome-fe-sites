@@ -19,6 +19,17 @@ export const aiEditorSites = {
   ]
 }
 
+export const aiDrawSites = {
+  type: 'AI - 绘画',
+  sites: [
+    {
+      name: 'diffusionbee',
+      link: 'https://github.com/divamgupta/diffusionbee-stable-diffusion-ui',
+      desc: 'stable-diffusion模型本地运行',
+    },
+  ]
+}
+
 export const aiUtilSites = {
   type: 'AI - 工具',
   sites: [
