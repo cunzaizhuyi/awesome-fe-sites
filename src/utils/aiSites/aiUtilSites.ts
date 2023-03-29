@@ -31,6 +31,11 @@ export const aiDrawSites = {
       name: 'lexica',
       link: 'https://lexica.art/',
       desc: 'The Stable Diffusion search engine',
+    },
+    {
+      name: 'pixelicious',
+      link: 'https://www.pixelicious.xyz/',
+      desc: '把图像转为像素风格，适用于游戏开发',
     }
   ]
 }
