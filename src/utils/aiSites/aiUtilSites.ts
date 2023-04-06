@@ -49,6 +49,11 @@ export const aiUtilSites = {
       desc: '这儿为你准备了无数个免费好用的ChatGPT镜像站点',
     },
     {
+      name: 'AIGC工具导航',
+      link: 'https://aigc.cn/ ',
+      desc: '全球1240+AI工具集合导航',
+    },
+    {
       name: 'phind',
       link: 'https://www.phind.com/',
       desc: '面向开发者的AI搜索引擎',
