@@ -63,7 +63,7 @@ export const hotSites: HotSite[] = [
 	},
 	{
 		name: "UnoCSS",
-		link: "https://github.com/unocss/unocss",
+		link: "https://unocss.dev/",
 		iconClass: "i-cus-unocss",
 		extraCss: "!text-18px",
 	},
