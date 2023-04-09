@@ -62,6 +62,11 @@ export const aiUtilSites = {
       name: 'phind',
       link: 'https://www.phind.com/',
       desc: '面向开发者的AI搜索引擎',
+    },
+    {
+      name: '多墨智能',
+      link: 'https://duomosmart.com/',
+      desc: 'AI一键生成文档、流程图、思维导图',
     }
   ]
 }
