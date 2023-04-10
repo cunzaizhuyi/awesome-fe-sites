@@ -159,6 +159,11 @@ export const picUtilsSites = {
       desc: "把所有的图片上传，即可获得一张雪碧图，并且带CSS代码",
     },
     {
+      name: "svg在线压缩合并工具",
+      link: "https://www.zhangxinxu.com/sp/svgo/",
+      desc: "张鑫旭大佬做的svg压缩工具",
+    },
+    {
       name: "代码Demo图生成",
       link: "https://www.ray.so/",
       desc: "虚心向大佬请教的时候，用这个或许比截图更容易让大佬一眼看见问题，给大佬良好的体验",
