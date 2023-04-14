@@ -196,9 +196,14 @@ export const drawUtilsSites = {
   type: "工具 - 绘图",
   sites: [
     {
-      name: "绘图工具",
+      name: "tldraw",
       link: "https://www.tldraw.com/",
       desc: "小巧的绘图应用程序",
+    },
+    {
+      name: "excalidraw",
+      link: "https://excalidraw.com/",
+      desc: "在线绘图工具",
     }
   ],
 };
