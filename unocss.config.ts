@@ -8,7 +8,8 @@ import {
 } from 'unocss'
 import presetWebFonts from '@unocss/preset-web-fonts'
 import customIconJson from './src/lib/customIcon/customIcon.json'
-import { hotSites } from "./src/utils/hotSites";
+import * as hotSites from "./src/utils/hotSites";
+import {buildTolls, cssSites, otherSites, runtimes} from "./src/utils/hotSites";
 
 export default defineConfig({
   shortcuts: {
@@ -87,6 +88,11 @@ export default defineConfig({
     ...Object.values(customIconJson).map(i => i.iconName),
 
     // Manually add the icon for a popular website.
-    ...hotSites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean)
+    ...hotSites.frameworks.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
+    ...hotSites.uiLibraries.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
+    ...hotSites.buildTolls.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
+    ...hotSites.cssSites.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
+    ...hotSites.runtimes.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
+    ...hotSites.otherSites.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
   ],
 })
