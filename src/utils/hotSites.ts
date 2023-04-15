@@ -1,5 +1,6 @@
 import type { HotSite } from "@/types";
-// import vant from '$lib/images/logos/vant.jpg';
+// Use UnoCSS comments to enable scanning of available classes in the current file
+// @unocss-include
 
 export const frameworks = {
 	type: '前端框架',
@@ -63,8 +64,7 @@ export const uiLibraries = {
 		{
 			name: 'Vant',
 			link: 'https://vant-contrib.gitee.io/vant/#/zh-CN',
-			// iconClass: 'i-logos-vant',
-			// logo: vant,
+			iconClass: 'i-cus-vant',
 		},
 		{
 			name: 'Element Plus',
@@ -101,6 +101,8 @@ export const buildTolls = {
 		{
 			name: 'Rspack',
 			link: 'https://www.rspack.dev/zh/guide/introduction.html',
+			iconClass: 'i-cus-rspack',
+			extraCss: "!text-28px",
 		}
 	]
 }
@@ -117,7 +119,6 @@ export const cssSites = {
 			name: "UnoCSS",
 			link: "https://unocss.dev/",
 			iconClass: "i-cus-unocss",
-			extraCss: "!text-18px",
 		},
 	]
 }
