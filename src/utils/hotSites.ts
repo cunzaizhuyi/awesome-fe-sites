@@ -113,7 +113,7 @@ export const buildTolls = {
 }
 
 export const cssSites = {
-	type: 'CSS库/框架',
+	type: 'CSS框架/引擎',
 	sites: [
 		{
 			name: "TailwindCSS",
