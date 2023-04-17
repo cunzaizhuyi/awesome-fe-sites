@@ -70,6 +70,11 @@ export const uiLibraries = {
 			name: 'Element Plus',
 			link: 'https://element-plus.gitee.io/zh-CN/component/button.html',
 			iconClass: 'i-logos-element',
+		},
+		{
+			name: 'Naive UI',
+			link: 'https://www.naiveui.com/zh-CN/os-theme/components/button',
+			iconClass: 'i-logos-naiveui',
 		}
 	]
 };
@@ -119,6 +124,11 @@ export const cssSites = {
 			name: "UnoCSS",
 			link: "https://unocss.dev/",
 			iconClass: "i-cus-unocss",
+		},
+		{
+			name: "Windi CSS",
+			link: "https://cn.windicss.org/",
+			iconClass: "i-cus-windicss",
 		},
 	]
 }
