@@ -128,7 +128,7 @@ export const cssSites = {
 		{
 			name: "Windi CSS",
 			link: "https://cn.windicss.org/",
-			iconClass: "i-cus-windicss",
+			iconClass: "i-logos-windi-css",
 		},
 	]
 }
