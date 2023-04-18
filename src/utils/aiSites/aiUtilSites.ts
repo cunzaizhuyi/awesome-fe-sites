@@ -16,6 +16,11 @@ export const aiEditorSites = {
       link: 'https://codeium.com/',
       desc: '多种编辑器扩展，包括vscode和webstorm，集成AI功能，只需要注册个codeium账号，无须openAI账号',
     },
+    {
+      name: 'bito',
+      link: 'https://bito.ai/',
+      desc: '可以用在多种编辑器的openAI能力'
+    }
   ]
 }
 
