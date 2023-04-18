@@ -10,7 +10,9 @@ import presetWebFonts from '@unocss/preset-web-fonts'
 import customIconJson from './src/lib/customIcon/customIcon.json'
 import * as hotSites from "./src/utils/hotSites";
 import {buildTolls, cssSites, otherSites, runtimes} from "./src/utils/hotSites";
-
+const extractIconClasses = (category: { sites: { iconClass: string }[] }) => {
+  return category.sites.map(({ iconClass }) => iconClass);
+};
 export default defineConfig({
   shortcuts: {
     'centerLayout': 'flex justify-center items-center',
@@ -85,14 +87,9 @@ export default defineConfig({
   // Here, we are manually adding `iconName` to UnoCSS because it is not being picked up by the scanner from the JSON/TS file.
   safelist: [
     // Manually add a custom icon.
-    ...Object.values(customIconJson).map(i => i.iconName),
+    ...Object.values(customIconJson).map((i) => i.iconName),
 
     // Manually add the icon for a popular website.
-    ...hotSites.frameworks.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
-    ...hotSites.uiLibraries.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
-    ...hotSites.buildTolls.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
-    ...hotSites.cssSites.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
-    ...hotSites.runtimes.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
-    ...hotSites.otherSites.sites.flatMap(({iconClass, extraCss = ''}) => [iconClass, ...extraCss.split(' ')]).filter(Boolean),
+    ...Object.values(hotSites).flatMap(extractIconClasses),
   ],
 })

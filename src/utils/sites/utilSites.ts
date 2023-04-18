@@ -63,7 +63,7 @@ export const cssUtilSites = {
     },
     {
       name: "滚动条生成",
-      link: "https://scrollbar.lainbo.com/",
+      link: "https://scrollbar.jason-liang.com/",
       desc: "快速生成滚动条样式的css代码",
     },
     {
@@ -245,7 +245,7 @@ export const serviceUtilSites = {
     },
     {
       name: 'component-party',
-      link: 'https://component-party.lainbo.com/',
+      link: 'https://component-party.jason-liang.com/',
       desc: '前端框架语法比较'
     },
     {

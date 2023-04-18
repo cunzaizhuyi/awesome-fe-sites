@@ -1,5 +1,6 @@
 import type { HotSite } from "@/types";
-// import vant from '$lib/images/logos/vant.jpg';
+// Use UnoCSS comments to enable scanning of available classes in the current file
+// @unocss-include
 
 export const frameworks = {
 	type: '前端框架',
@@ -63,13 +64,17 @@ export const uiLibraries = {
 		{
 			name: 'Vant',
 			link: 'https://vant-contrib.gitee.io/vant/#/zh-CN',
-			// iconClass: 'i-logos-vant',
-			// logo: vant,
+			iconClass: 'i-cus-vant',
 		},
 		{
 			name: 'Element Plus',
 			link: 'https://element-plus.gitee.io/zh-CN/component/button.html',
 			iconClass: 'i-logos-element',
+		},
+		{
+			name: 'Naive UI',
+			link: 'https://www.naiveui.com/zh-CN/os-theme/components/button',
+			iconClass: 'i-logos-naiveui',
 		}
 	]
 };
@@ -101,12 +106,14 @@ export const buildTolls = {
 		{
 			name: 'Rspack',
 			link: 'https://www.rspack.dev/zh/guide/introduction.html',
+			iconClass: 'i-cus-rspack',
+			extraCss: "!text-28px",
 		}
 	]
 }
 
 export const cssSites = {
-	type: 'CSS库/框架',
+	type: 'CSS框架/引擎',
 	sites: [
 		{
 			name: "TailwindCSS",
@@ -117,7 +124,11 @@ export const cssSites = {
 			name: "UnoCSS",
 			link: "https://unocss.dev/",
 			iconClass: "i-cus-unocss",
-			extraCss: "!text-18px",
+		},
+		{
+			name: "Windi CSS",
+			link: "https://cn.windicss.org/",
+			iconClass: "i-logos-windi-css",
 		},
 	]
 }
