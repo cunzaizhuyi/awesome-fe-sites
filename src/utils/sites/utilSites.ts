@@ -204,6 +204,11 @@ export const drawUtilsSites = {
       name: "excalidraw",
       link: "https://excalidraw.com/",
       desc: "在线绘图工具",
+    },
+    {
+      name: "draw.io",
+      link: "https://app.diagrams.net/",
+      desc: "draw.io",
     }
   ],
 };
