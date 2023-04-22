@@ -77,6 +77,11 @@ export const cssUtilSites = {
       desc: "",
     },
     {
+      name: "CSS渐变色生成器",
+      link: "https://gradient.style/",
+      desc: "",
+    },
+    {
       name: "滤镜扭转颜色工具",
       link: "https://www.zhangxinxu.com/sp/filter.html",
       desc: "可以将一个颜色，利用CSS滤镜强行扭转成另一个颜色，如：一个深蓝色的logo图片，在深色模式下对比度太低难以看清，这时需要一个白色的logo，但是可能UI给不出来，或者没有UI，这时候前端就可以利用这个工具对图片颜色进行转换",
