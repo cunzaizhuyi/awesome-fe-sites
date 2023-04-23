@@ -164,6 +164,11 @@ export const picUtilsSites = {
       desc: "把所有的图片上传，即可获得一张雪碧图，并且带CSS代码",
     },
     {
+      name: "图片转SVG工具",
+      link: "https://vectorizer.ai/",
+      desc: "可以将常见的jpg/png/webp/ico图片转换成svg格式，而且不是简单的base64画一遍，而是真正的svg路径，配合后面的压缩工具可以得到比较好的产物",
+    },
+    {
       name: "svg在线压缩合并工具",
       link: "https://www.zhangxinxu.com/sp/svgo/",
       desc: "张鑫旭大佬做的svg压缩工具",
