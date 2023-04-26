@@ -163,5 +163,9 @@ export const otherSites = {
 			iconClass: "i-cus-leetcode",
 			extraCss: "-translate-y-1px",
 		},
+		{
+			name: "go",
+			link: "https://go.dev/"
+		}
 	]
 };
