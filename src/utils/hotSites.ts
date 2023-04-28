@@ -164,8 +164,10 @@ export const otherSites = {
 			extraCss: "-translate-y-1px",
 		},
 		{
-			name: "go",
-			link: "https://go.dev/"
+			name: "Go",
+			link: "https://go.dev/",
+			iconClass: "i-logos-go",
+			extraCss: "translate-y-2px text-30px",
 		}
 	]
 };
