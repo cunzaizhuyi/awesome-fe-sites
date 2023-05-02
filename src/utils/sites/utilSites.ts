@@ -270,7 +270,7 @@ export const serviceUtilSites = {
     },
     {
       name: 'fly',
-      link: 'https://xn--4gq62f52gdss.com/#/subscribe',
+      link: 'https://xfltd.top/',
       desc: '飞跃重洋'
     }
   ],
