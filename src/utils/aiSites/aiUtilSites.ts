@@ -72,6 +72,21 @@ export const aiUtilSites = {
       name: '多墨智能',
       link: 'https://duomosmart.com/',
       desc: 'AI一键生成文档、流程图、思维导图',
+    },
+    {
+      name: 'AI智库',
+      link: 'https://ki6j1b0d92h.feishu.cn/wiki/wikcnAFcEccJ5iXiU8MRntc2Vyb',
+      desc: '由网友整理资料和笔记的制作而成的飞书文档，专注于AI实践分享的知识库。提供全面实用的AI行业动态、实用工具分享、研报阅读以及教程和技巧分享',
+    },
+    {
+      name: 'ChatGPT 中文调教指南',
+      link: 'https://chatguide.plexpt.com/',
+      desc: '一些ChatGPT的prompt和调教技巧',
+    },
+    {
+      name: '紧跟AIGC风向的知识库',
+      link: 'https://szqxz4m7fs.feishu.cn/wiki/wikcnMJ5qdVdOJ03XsBZFuXIRkf',
+      desc: '持续关注AIGC相关动态、研究报告、相关资料、商业落地等，包括但不限于ChatGPT相关问题、AI绘画相关落地、国内大模型研究进展、开源模型进展、资料汇总等',
     }
   ]
 }

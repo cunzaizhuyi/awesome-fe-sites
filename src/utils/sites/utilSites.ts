@@ -270,7 +270,7 @@ export const serviceUtilSites = {
     },
     {
       name: 'fly',
-      link: 'https://xfltd.top/',
+      link: 'https://helpf.notion.site/helpf/0ff24d2eb1cd4f3ab4fd0b7e6f199cc1',
       desc: '飞跃重洋'
     }
   ],
