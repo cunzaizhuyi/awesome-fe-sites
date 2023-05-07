@@ -87,6 +87,11 @@ export const aiUtilSites = {
       name: '紧跟AIGC风向的知识库',
       link: 'https://szqxz4m7fs.feishu.cn/wiki/wikcnMJ5qdVdOJ03XsBZFuXIRkf',
       desc: '持续关注AIGC相关动态、研究报告、相关资料、商业落地等，包括但不限于ChatGPT相关问题、AI绘画相关落地、国内大模型研究进展、开源模型进展、资料汇总等',
+    },
+    {
+      name: '也略',
+      link: 'https://www.yelue.com/',
+      desc: '一个让你实现Chat GPT自由的网站',
     }
   ]
 }
