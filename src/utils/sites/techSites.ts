@@ -26,5 +26,9 @@ export const techSites = {
       link: 'https://hive.one/',
       desc: '列出Twitter上某个技术社区里的名人、大佬，可以一键批量关注',
     },
+    {
+      name: 'smashingmagazine',
+      link: 'https://www.smashingmagazine.com/articles/',
+    }
   ],
 };
