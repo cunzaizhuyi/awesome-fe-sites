@@ -20,6 +20,16 @@ export const echartsDemo = {
       name: 'PPChart',
       link: 'http://www.ppchart.com/#/',
       desc: '',
+    },
+    {
+      name: '分享你我-echarts作品集',
+      link: 'http://chart.majh.top/',
+      desc: '',
+    },
+    {
+      name: 'ChartLib',
+      link: 'http://chartlib.datains.cn/echarts',
+      desc: '',
     }
   ]
 };

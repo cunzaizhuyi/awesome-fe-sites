@@ -90,7 +90,7 @@ export const aiUtilSites = {
     },
     {
       name: '也略',
-      link: 'https://www.mydgpt.com/',
+      link: 'https://www.mydyjs.com/gpt.html',
       desc: '一个让你实现Chat GPT自由的网站',
     }
   ]
