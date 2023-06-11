@@ -45,6 +45,27 @@ export const aiDrawSites = {
   ]
 }
 
+export const aiSearchSites = {
+  type: 'AI - 搜索引擎类',
+  sites: [
+    {
+      name: 'AIGC工具导航',
+      link: 'https://aigc.cn/ ',
+      desc: '全球1240+AI工具集合导航',
+    },
+    {
+      name: 'phind',
+      link: 'https://www.phind.com/',
+      desc: '面向开发者的AI搜索引擎',
+    },
+    {
+      name: 'aivalley',
+      link: 'https://aivalley.ai/',
+      desc: '最新AI工具集合和AI提示词搜索',
+    }
+  ]
+}
+
 export const aiUtilSites = {
   type: 'AI - 工具',
   sites: [
@@ -54,19 +75,9 @@ export const aiUtilSites = {
       desc: '这儿为你准备了无数个免费好用的ChatGPT镜像站点',
     },
     {
-      name: 'AIGC工具导航',
-      link: 'https://aigc.cn/ ',
-      desc: '全球1240+AI工具集合导航',
-    },
-    {
       name: 'AI工具百宝箱',
       link: 'https://www.explainthis.io/zh-hans/ai-toolkit ',
       desc: '最实用、最热门的 AI 工具，帮助你在工作与学习上更轻松有效率',
-    },
-    {
-      name: 'phind',
-      link: 'https://www.phind.com/',
-      desc: '面向开发者的AI搜索引擎',
     },
     {
       name: '多墨智能',
