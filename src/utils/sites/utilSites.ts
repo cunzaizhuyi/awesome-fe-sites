@@ -232,6 +232,11 @@ export const regexpUtilsSites = {
       link: "https://regex-vis.com/",
       desc: "除了常见的图解正则，还可以通过鼠标点点点，对正则进行逻辑的增删改，详见GitHub的README",
     },
+    {
+      name: "AI生成正则表达式",
+      link: "https://helloai.wiki/tools/T2JToqti4",
+      desc: "基于GPT的正则生成器，免费使用",
+    },
   ],
 };
 
