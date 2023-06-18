@@ -25,7 +25,7 @@ export const aiEditorSites = {
 }
 
 export const aiDrawSites = {
-  type: 'AI - 绘画',
+  type: 'AI - 绘画/图片',
   sites: [
     {
       name: 'diffusionbee',
@@ -41,6 +41,11 @@ export const aiDrawSites = {
       name: 'pixelicious',
       link: 'https://www.pixelicious.xyz/',
       desc: '把图像转为像素风格，适用于游戏开发',
+    },
+    {
+      name: 'picfinder',
+      link: 'https://picfinder.ai/',
+      desc: '免费的AI图片生成网站',
     }
   ]
 }
