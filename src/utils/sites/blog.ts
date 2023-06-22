@@ -12,9 +12,9 @@ export const teamBlog = {
       desc: 'builder.io公司的技术博客，CTO是angular和qwik作者'
     },
     {
-      name: 'chrome开发团队',
+      name: 'Chrome开发团队',
       link: 'https://developer.chrome.com/blog/',
-      desc: 'chrome团队的博客，Chrome有什么新特性出来了，一般都会发博客',
+      desc: 'Chrome团队的博客，Chrome有什么新特性出来了，一般都会发博客',
     }
   ]
 };
@@ -25,12 +25,12 @@ export const blog = {
     {
       name: 'stefanjudis',
       link: 'https://www.stefanjudis.com/',
-      desc: '其中有web weekly。作者自己搞的前端周刊',
+      desc: '其中有Web Weekly。作者自己搞的前端周刊',
     },
     {
       name: 'amitmerchant',
       link: 'https://www.amitmerchant.com/posts/javascript/',
-      desc: '',
+      desc: 'A blog on JavaScript, and more',
     },
     {
       name: 'CS自学指南',
@@ -45,7 +45,12 @@ export const blog = {
     {
       name: '鑫空间，鑫生活',
       link: 'https://www.zhangxinxu.com/wordpress/',
-      desc: '张鑫旭大佬的技术博客',
+      desc: '张鑫旭的技术博客',
+    },
+    {
+      name: 'ChokCoco',
+      link: 'https://www.cnblogs.com/coco1s/',
+      desc: 'CSS艺术家，Coco的博客',
     },
     {
       name: 'robinwieruch',

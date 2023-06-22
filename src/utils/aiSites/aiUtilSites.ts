@@ -28,6 +28,11 @@ export const aiDrawSites = {
   type: 'AI - 绘画/图片',
   sites: [
     {
+      name: 'MJ提示词工具',
+      link: 'https://aijiaolian.chat/',
+      desc: 'MidJourney提示词工具',
+    },
+    {
       name: 'diffusionbee',
       link: 'https://github.com/divamgupta/diffusionbee-stable-diffusion-ui',
       desc: 'stable-diffusion模型本地运行',
@@ -90,21 +95,6 @@ export const aiUtilSites = {
       desc: 'AI一键生成文档、流程图、思维导图',
     },
     {
-      name: 'AI智库',
-      link: 'https://ki6j1b0d92h.feishu.cn/wiki/wikcnAFcEccJ5iXiU8MRntc2Vyb',
-      desc: '由网友整理资料和笔记的制作而成的飞书文档，专注于AI实践分享的知识库。提供全面实用的AI行业动态、实用工具分享、研报阅读以及教程和技巧分享',
-    },
-    {
-      name: 'ChatGPT 中文调教指南',
-      link: 'https://chatguide.plexpt.com/',
-      desc: '一些ChatGPT的prompt和调教技巧',
-    },
-    {
-      name: '紧跟AIGC风向的知识库',
-      link: 'https://szqxz4m7fs.feishu.cn/wiki/wikcnMJ5qdVdOJ03XsBZFuXIRkf',
-      desc: '持续关注AIGC相关动态、研究报告、相关资料、商业落地等，包括但不限于ChatGPT相关问题、AI绘画相关落地、国内大模型研究进展、开源模型进展、资料汇总等',
-    },
-    {
       name: '也略',
       link: 'https://www.mydyjs.com/gpt.html',
       desc: '一个让你实现Chat GPT自由的网站',
@@ -112,3 +102,39 @@ export const aiUtilSites = {
   ]
 }
 
+
+export const aiKnowledgeBase = {
+  type: 'AI - 知识库',
+  sites: [
+    {
+      name: 'ChatGPT 中文调教指南',
+      link: 'https://chatguide.plexpt.com/',
+      desc: '一些ChatGPT的prompt和调教技巧',
+    },
+    {
+      name: 'AI Short',
+      link: 'https://www.aishort.top/',
+      desc: '让生产力加倍的ChatGPT的prompt',
+    },
+    {
+      name: '紧跟AIGC风向的知识库',
+      link: 'https://szqxz4m7fs.feishu.cn/wiki/wikcnMJ5qdVdOJ03XsBZFuXIRkf',
+      desc: '持续关注AIGC相关动态、研究报告、相关资料、商业落地等，包括但不限于ChatGPT相关问题、AI绘画相关落地、国内大模型研究进展、开源模型进展、资料汇总等',
+    },
+    {
+      name: 'AI智库',
+      link: 'https://ki6j1b0d92h.feishu.cn/wiki/wikcnAFcEccJ5iXiU8MRntc2Vyb',
+      desc: '由网友整理资料和笔记的制作而成的飞书文档，专注于AI实践分享的知识库。提供全面实用的AI行业动态、实用工具分享、研报阅读以及教程和技巧分享',
+    },
+    {
+      name: 'GPT最佳实践',
+      link: 'https://platform.openai.com/docs/guides/gpt-best-practices',
+      desc: 'Open AI官方写的如何向GPT提问的最佳实践',
+    },
+    {
+      name: '通往AGI之路',
+      link: 'https://ywh1bkansf.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e',
+      desc: 'Open AI官方写的如何向GPT提问的最佳实践',
+    },
+  ]
+}

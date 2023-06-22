@@ -8,9 +8,9 @@ export const weekly = {
       desc: "node技术周刊，约每周四更新",
     },
     {
-      name: "javascript-weekly",
+      name: "JavaScript Weekly",
       link: "https://javascriptweekly.com/issues",
-      desc: "js技术周刊，约每周五更新",
+      desc: "JavaScript技术周刊，约每周五更新",
     },
     {
       name: "frontend-weekly",

@@ -29,6 +29,7 @@ export const techSites = {
     {
       name: 'smashingmagazine',
       link: 'https://www.smashingmagazine.com/articles/',
+      desc: '一个关于 Web 设计和开发的在线杂志，提供有关最新趋势、技术和技巧的文章。涵盖了各种主题，包括前端开发、后端开发、设计、用户体验等。'
     }
   ],
 };
