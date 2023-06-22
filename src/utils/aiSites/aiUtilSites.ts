@@ -134,7 +134,7 @@ export const aiKnowledgeBase = {
     {
       name: '通往AGI之路',
       link: 'https://ywh1bkansf.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e',
-      desc: 'Open AI官方写的如何向GPT提问的最佳实践',
+      desc: '提供一个全面系统、易于理解的  学习路径，帮助您了解AI的从概念到应用等各方面知识',
     },
   ]
 }
