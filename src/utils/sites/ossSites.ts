@@ -13,5 +13,10 @@ export const ossSites = {
       link: 'https://publint.dev/',
       desc: '检查一个npm包是否发布正确，作者是vite和svelte成员'
     },
+    {
+      name: 'npm-stat',
+      link: 'https://npm-stat.com/',
+      desc: '在线统计npm包下载量，精细到天粒度'
+    }
   ],
 }
