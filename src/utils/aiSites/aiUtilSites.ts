@@ -61,7 +61,7 @@ export const aiSearchSites = {
     {
       name: 'AIGC工具导航',
       link: 'https://aigc.cn/',
-      desc: '全球1240+AI工具集合导航',
+      desc: '全球1600+AI工具集合导航',
     },
     {
       name: 'ToolAi',
