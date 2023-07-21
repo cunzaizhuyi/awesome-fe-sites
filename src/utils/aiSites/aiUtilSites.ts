@@ -60,8 +60,13 @@ export const aiSearchSites = {
   sites: [
     {
       name: 'AIGC工具导航',
-      link: 'https://aigc.cn/ ',
+      link: 'https://aigc.cn/',
       desc: '全球1240+AI工具集合导航',
+    },
+    {
+      name: 'ToolAi',
+      link: 'https://www.toolai.io/zh/',
+      desc: 'AI 网站目录，收录了全球5000个 AI 网站',
     },
     {
       name: 'phind',

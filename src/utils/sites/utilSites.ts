@@ -92,6 +92,11 @@ export const cssUtilSites = {
       desc: "",
     },
     {
+      name: "平滑圆角生成器",
+      link: "https://pavellaptev.github.io/css-houdini-squircle/",
+      desc: "小米的Logo就是这种圆角，border-radius无法实现的圆角",
+    },
+    {
       name: "animista",
       link: "https://animista.net/",
       desc: "一堆CSS动画供君选择",
