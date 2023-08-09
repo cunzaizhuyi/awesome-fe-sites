@@ -280,7 +280,7 @@ export const serviceUtilSites = {
     },
     {
       name: 'fly',
-      link: 'https://helpf.notion.site/helpf/0ff24d2eb1cd4f3ab4fd0b7e6f199cc1',
+      link: 'https://helpf.notion.site/262e4136600548b3aaaa29e44a4c8273',
       desc: '飞跃重洋'
     }
   ],

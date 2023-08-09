@@ -59,6 +59,11 @@ export const aiSearchSites = {
   type: 'AI - 搜索引擎类',
   sites: [
     {
+      name: '发现最佳人工智能网站',
+      link: 'https://www.toolify.ai/zh/',
+      desc: '它收录了 5000 多款AI产品，在详情页还展示了每款产品的月访问量、平均访问时长、跳出率等信息',
+    },
+    {
       name: 'AIGC工具导航',
       link: 'https://aigc.cn/',
       desc: '全球1600+AI工具集合导航',
