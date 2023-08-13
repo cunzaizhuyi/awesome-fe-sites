@@ -17,6 +17,11 @@ export const cssUtilSites = {
       desc: "",
     },
     {
+      name: "手绘风 SVG 图形",
+      link: "https://svghub.vercel.app/",
+      desc: "手绘风格的 svg 素材库，可修改配色，可直接粘贴至 figma，适合做一些文章配图",
+    },
+    {
       name: "CSS灵感",
       link: "https://csscoco.com/inspiration/#/",
       desc: "Chokcoco维护的网站，这里可以让你寻找到使用或者是学习 CSS 的灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法",
