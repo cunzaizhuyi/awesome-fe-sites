@@ -17,6 +17,16 @@ export const ossSites = {
       name: 'npm-stat',
       link: 'https://npm-stat.com/',
       desc: '在线统计npm包下载量，精细到天粒度'
+    },
+    {
+      name: 'pkg-size',
+      link: 'https://pkg-size.dev/',
+      desc: '检查npm包体积'
+    },
+    {
+      name: 'GiftOfSpeed',
+      link: 'https://www.giftofspeed.com/gzip-test/',
+      desc: '检查gzip是否开启'
     }
   ],
 }

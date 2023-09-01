@@ -122,6 +122,11 @@ export const cssUtilSites = {
       desc: "顶部的`source`按钮可以查看代码",
     },
     {
+      name: "500+ 纯 CSS 制作的 loading 动画",
+      link: "https://css-loaders.com/",
+      desc: "顶部的`source`按钮可以查看代码",
+    },
+    {
       name: "缓动函数速查表",
       link: "https://easings.net/zh-cn",
       desc: "除了CSS代码，它还给出了函数的代码，供一些可以自定义缓动函数的动画函数",
@@ -192,6 +197,11 @@ export const picUtilsSites = {
       name: "Carbon",
       link: "https://carbon.now.sh/",
       desc: "另一个代码块截图工具，和上面那个比较一下，自己喜欢哪个",
+    },
+    {
+      name: "Lorem Picsum",
+      link: "https://picsum.photos/",
+      desc: "随机图片工具，只需在URL后添加您想要的图像尺寸（宽度和高度），就会获得随机图像",
     }
   ],
 };
