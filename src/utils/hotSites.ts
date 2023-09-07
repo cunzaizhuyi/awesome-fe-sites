@@ -43,7 +43,7 @@ export const frameworks = {
 		{
 			name: "Qwik",
 			link: "https://qwik.builder.io/docs/overview/",
-			iconClass: "i-logos-qwik",
+			iconClass: "i-logos-qwik-icon",
 		},
 		{
 			name: "Astro",
