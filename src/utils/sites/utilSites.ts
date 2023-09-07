@@ -215,6 +215,11 @@ export const iconUtilsSites = {
       desc: "里面有各种各样的svg图标",
     },
     {
+      name: "CSS图标库",
+      link: "https://css.gg/",
+      desc: "700+ CSS Icons",
+    },
+    {
       name: "产品logoSvg",
       link: "https://svgporn.com/",
       desc: "各种产品的logo",

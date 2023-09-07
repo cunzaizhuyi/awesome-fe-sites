@@ -7,6 +7,11 @@ export const teamBlog = {
       desc: 'Chrome DevRel 团队的博客'
     },
     {
+      name: 'engblogs',
+      link: 'https://engineeringblogs.xyz/',
+      desc: '将 506 个工程师的博客的 RSS 给订阅起来，将每天有更新的自动同步到网站上'
+    },
+    {
       name: 'builder.io',
       link: 'https://www.builder.io/blog',
       desc: 'builder.io公司的技术博客，CTO是angular和qwik作者'
