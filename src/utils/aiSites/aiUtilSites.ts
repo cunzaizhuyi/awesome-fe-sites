@@ -28,9 +28,9 @@ export const aiDrawSites = {
   type: 'AI - 绘画/图片',
   sites: [
     {
-      name: 'MJ提示词工具',
-      link: 'https://aijiaolian.chat/',
-      desc: 'MidJourney提示词工具',
+      name: 'MidJourney.TalkGame.Ai',
+      link: 'https://midjourney.talkgame.ai/',
+      desc: '扩充你的MidJourney提示词, 让想像有更多的想像',
     },
     {
       name: 'diffusionbee',
@@ -61,7 +61,7 @@ export const aiSearchSites = {
     {
       name: '发现最佳人工智能网站',
       link: 'https://www.toolify.ai/zh/',
-      desc: '它收录了 5000 多款AI产品，在详情页还展示了每款产品的月访问量、平均访问时长、跳出率等信息',
+      desc: '它收录了 8000 多款AI产品，在详情页还展示了每款产品的月访问量、平均访问时长、跳出率等信息',
     },
     {
       name: 'AIGC工具导航',
@@ -69,14 +69,14 @@ export const aiSearchSites = {
       desc: '全球1600+AI工具集合导航',
     },
     {
-      name: 'ToolAi',
-      link: 'https://www.toolai.io/zh/',
-      desc: 'AI 网站目录，收录了全球5000个 AI 网站',
-    },
-    {
       name: 'phind',
       link: 'https://www.phind.com/',
       desc: '面向开发者的AI搜索引擎',
+    },
+    {
+      name: 'MediSearch',
+      link: 'https://medisearch.io/zh',
+      desc: '以科学为依据直接解答医学问题, 基于AI',
     },
     {
       name: 'aivalley',
@@ -108,7 +108,12 @@ export const aiUtilSites = {
       name: '也略',
       link: 'https://www.mydyjs.com/gpt.html',
       desc: '一个让你实现Chat GPT自由的网站',
-    }
+    },
+    {
+      name: "Name By AI",
+      link: "https://www.namedbyai.com/",
+      desc: "一个AI起名字的网站",
+    },
   ]
 }
 
@@ -138,13 +143,33 @@ export const aiKnowledgeBase = {
     },
     {
       name: 'GPT最佳实践',
-      link: 'https://platform.openai.com/docs/guides/gpt-best-practices',
+      link: 'https://platform.openai.com/docs/guides/prompt-engineering',
       desc: 'Open AI官方写的如何向GPT提问的最佳实践',
+    },
+    {
+      name: 'GPT最佳实践(中文大白话版本)',
+      link: 'https://futureforce.feishu.cn/file/CMpdbLxAhon5K5x5C1OcciYwnOf',
+      desc: 'OpenAI：GPT 最佳实践中文大白话版本_未来力场编译',
     },
     {
       name: '通往AGI之路',
       link: 'https://ywh1bkansf.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e',
       desc: '提供一个全面系统、易于理解的  学习路径，帮助您了解AI的从概念到应用等各方面知识',
+    },
+    {
+      name: 'AIGC知识库, 一站式人工智能知识库',
+      link: 'https://www.yuque.com/gptcn/gpt',
+      desc: '',
+    },
+    {
+      name: '事半 - 提示库',
+      link: 'https://halfwork.cn/prompt',
+      desc: '找到最好的提示词，用更少的时间，创作更好的内容',
+    },
+    {
+      name: 'PromptPerfect',
+      link: 'https://promptperfect.jina.ai/',
+      desc: '一个让写prompt门槛降低到膝盖以下的网站',
     },
   ]
 }

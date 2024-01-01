@@ -1,7 +1,8 @@
 import { techSites } from './techSites';
 import { weekly } from "./weekly";
 import { blog, teamBlog } from "./blog";
-import {echartsDemo } from "./echarts";
+import { echartsDemo } from "./echarts";
+import { algorithm } from "./algorithm";
 import { spec } from "./spec";
 import { ossSites } from "./ossSites";
 import { cssUtilSites, jsUtilSites, picUtilsSites, iconUtilsSites, drawUtilsSites, regexpUtilsSites, serviceUtilSites } from './utilSites';
@@ -19,6 +20,7 @@ export const allSites = [
   // 热门开源项目站点
   ossSites,
   echartsDemo,
+  algorithm,
   // 工具站点
   cssUtilSites,
   jsUtilSites,
@@ -27,5 +29,4 @@ export const allSites = [
   drawUtilsSites,
   regexpUtilsSites,
   serviceUtilSites,
-
 ]

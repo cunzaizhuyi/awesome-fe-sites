@@ -87,6 +87,16 @@ export const cssUtilSites = {
       desc: "",
     },
     {
+      name: "CSS边框生成器",
+      link: "https://dashed-border.lainbo.com/",
+      desc: "",
+    },
+    {
+      name: "uiverse",
+      link: "https://uiverse.io/",
+      desc: "适用于任何项目的开源用户界面元素",
+    },
+    {
       name: "滤镜扭转颜色工具",
       link: "https://www.zhangxinxu.com/sp/filter.html",
       desc: "可以将一个颜色，利用CSS滤镜强行扭转成另一个颜色，如：一个深蓝色的logo图片，在深色模式下对比度太低难以看清，这时需要一个白色的logo，但是可能UI给不出来，或者没有UI，这时候前端就可以利用这个工具对图片颜色进行转换",
@@ -125,6 +135,11 @@ export const cssUtilSites = {
       name: "500+ 纯 CSS 制作的 loading 动画",
       link: "https://css-loaders.com/",
       desc: "顶部的`source`按钮可以查看代码",
+    },
+    {
+      name: "响应式跟字号生成器",
+      link: "https://chrisburnell.com/clamp-calculator/",
+      desc: "",
     },
     {
       name: "缓动函数速查表",
@@ -166,6 +181,11 @@ export const jsUtilSites = {
       name: "语言AST展示",
       link: "https://www.astexplorer.net/",
       desc: "一个用于探索由各种解析器生成的AST的Web工具，支持非常多语言",
+    },
+    {
+      name: "3D动画背景生成",
+      link: "https://www.vantajs.com/",
+      desc: "Animated website backgrounds in a few lines of code.",
     },
   ],
 };
@@ -257,11 +277,6 @@ export const regexpUtilsSites = {
       link: "https://regex-vis.com/",
       desc: "除了常见的图解正则，还可以通过鼠标点点点，对正则进行逻辑的增删改，详见GitHub的README",
     },
-    {
-      name: "AI生成正则表达式",
-      link: "https://helloai.wiki/tools/T2JToqti4",
-      desc: "基于GPT的正则生成器，免费使用",
-    },
   ],
 };
 
@@ -297,6 +312,11 @@ export const serviceUtilSites = {
       name: 'Node Toolbox',
       link: 'https://nodejstoolbox.com/',
       desc: '查找Node生态下各分类最流行的代码库',
+    },
+    {
+      name: 'GitHub加速',
+      link: 'https://ghproxy.lainbo.com/',
+      desc: '',
     },
     {
       name: 'fly',
