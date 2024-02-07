@@ -50,6 +50,11 @@ export const frameworks = {
 			link: "https://astro.build/",
 			iconClass: "i-cus-astro",
 		},
+		{
+			name: "Angular",
+			link: "https://angular.io/",
+			iconClass: "i-vscode-icons-file-type-angular",
+		},
 	]
 };
 
