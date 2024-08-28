@@ -7,6 +7,11 @@ export const techSites = {
       desc: '拥有百万开发者的技术社区，开发者分享交流，获取最新技术资讯，提高专业能力的好地方'
     },
     {
+      name: 'producthunt',
+      link: 'https://www.producthunt.com/',
+      desc: '全球新产品探索'
+    },
+    {
       name: '掘金',
       link: 'https://juejin.cn/',
       desc: '中文技术社区',
