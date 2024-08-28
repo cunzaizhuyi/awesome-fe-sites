@@ -7,7 +7,7 @@ export const techSites = {
       desc: '拥有百万开发者的技术社区，开发者分享交流，获取最新技术资讯，提高专业能力的好地方'
     },
     {
-      name: 'producthunt',
+      name: 'product hunt',
       link: 'https://www.producthunt.com/',
       desc: '全球新产品探索'
     },
@@ -35,6 +35,11 @@ export const techSites = {
       name: 'smashingmagazine',
       link: 'https://www.smashingmagazine.com/articles/',
       desc: '一个关于 Web 设计和开发的在线杂志，提供有关最新趋势、技术和技巧的文章。涵盖了各种主题，包括前端开发、后端开发、设计、用户体验等。'
+    },
+    {
+      name: 'vscode插件开发官网',
+      link: 'https://code.visualstudio.com/api',
+      desc: 'scode插件开发官网'
     }
   ],
 };
