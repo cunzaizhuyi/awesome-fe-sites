@@ -39,7 +39,7 @@ export const techSites = {
     {
       name: 'vscode插件开发官网',
       link: 'https://code.visualstudio.com/api',
-      desc: 'scode插件开发官网'
+      desc: 'vscode插件开发官网'
     }
   ],
 };
