@@ -51,6 +51,11 @@ export const aiDrawSites = {
       name: 'picfinder',
       link: 'https://picfinder.ai/',
       desc: '免费的AI图片生成网站',
+    },
+    {
+      name: 'AI证件照',
+      link: 'https://swanhub.co/ZeYiLin/HivisionIDPhotos/demo',
+      desc: 'AI证件照  https://github.com/xiaolin199912/HivisionIDPhotos '
     }
   ]
 }
