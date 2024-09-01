@@ -12,6 +12,11 @@ export const techSites = {
       desc: '全球新产品探索'
     },
     {
+      name: 'Hacker News',
+      link: 'https://news.ycombinator.com/newest',
+      desc: 'Hacker News',
+    },
+    {
       name: '掘金',
       link: 'https://juejin.cn/',
       desc: '中文技术社区',
