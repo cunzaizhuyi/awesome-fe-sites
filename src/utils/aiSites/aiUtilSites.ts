@@ -87,6 +87,11 @@ export const aiSearchSites = {
       name: 'aivalley',
       link: 'https://aivalley.ai/',
       desc: '最新AI工具集合和AI提示词搜索',
+    },
+    {
+      name: 'coze',
+      link: 'https://www.coze.cn/?cate_type=category&cate_value=7331636528340500518',
+      desc: '字节扣子'
     }
   ]
 }
