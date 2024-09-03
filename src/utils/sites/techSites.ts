@@ -7,6 +7,11 @@ export const techSites = {
       desc: '拥有百万开发者的技术社区，开发者分享交流，获取最新技术资讯，提高专业能力的好地方'
     },
     {
+      name: 'medium',
+      link: 'https://medium.com/',
+      desc: '类似于 简书'
+    },
+    {
       name: 'product hunt',
       link: 'https://www.producthunt.com/',
       desc: '全球新产品探索'
