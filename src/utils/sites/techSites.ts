@@ -50,6 +50,11 @@ export const techSites = {
       name: 'vscode插件开发官网',
       link: 'https://code.visualstudio.com/api',
       desc: 'vscode插件开发官网'
+    },
+    {
+      name: '浏览器扩展文档',
+      link: 'https://developer.chrome.com/docs/extensions?hl=zh-cn',
+      desc: '官方文档'
     }
   ],
 };
