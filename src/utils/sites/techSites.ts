@@ -7,9 +7,9 @@ export const techSites = {
       desc: '拥有百万开发者的技术社区，开发者分享交流，获取最新技术资讯，提高专业能力的好地方'
     },
     {
-      name: 'medium',
-      link: 'https://medium.com/',
-      desc: '类似于 简书'
+      name: 'reddit',
+      link: 'https://www.reddit.com/',
+      desc: 'reddit'
     },
     {
       name: 'product hunt',
@@ -55,6 +55,11 @@ export const techSites = {
       name: '浏览器扩展文档',
       link: 'https://developer.chrome.com/docs/extensions?hl=zh-cn',
       desc: '官方文档'
+    },
+    {
+      name: 'medium',
+      link: 'https://medium.com/',
+      desc: '类似于 简书'
     }
   ],
 };
